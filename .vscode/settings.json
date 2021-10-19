@@ -1,0 +1,10 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "excalidraw.theme": "dark",
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/home/mm/pymon/.venv/bin/python",
+    "python.analysis.extraPaths": [
+        "./src"
+    ],
+}
