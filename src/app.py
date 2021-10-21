@@ -2,25 +2,26 @@
 
 
 """
-cli for paimon
+cli for pymon
 """
 
 
 import logging
+import pymon.gen.char
 import pymon.log
-import pymon.setup
 
 
-def __run_tests__() -> None:
+def _dev() -> None:
     """for testing purposes"""
 
     # configure logging system
-    level = logging.INFO
+    level = logging.DEBUG
     handler = pymon.log.create_cli_handler(level)
     pymon.log.configure_logger(level, handler)
 
     # pymon.setup.download_data()
+    pymon.gen.char.main()
 
 
 if __name__ == "__main__":
-    __run_tests__()
+    _dev()
