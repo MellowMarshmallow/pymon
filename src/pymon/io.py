@@ -7,6 +7,7 @@ For reading and writing data.
 
 
 from typing import Any
+from pathlib import Path
 import json
 import pymon.log
 
@@ -47,3 +48,9 @@ def write(path: str, serializable_data: Any) -> None:
     except TypeError:
         logger.critical("Data is not serializable")
         raise
+
+
+def file_name(path: str) -> str:
+    """Returns the filename (without file extension)."""
+
+    return Path(path).stem
