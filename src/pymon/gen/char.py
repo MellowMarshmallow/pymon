@@ -47,6 +47,8 @@ class Lookup:
     paths = {
         "download/ExcelBinOutput/AvatarExcelConfigData.json",
         "download/ExcelBinOutput/FetterInfoExcelConfigData.json",
+        "download/ExcelBinOutput/MaterialExcelConfigData.json",
+        "download/ExcelBinOutput/AvatarPromoteExcelConfigData.json",
         "download/ExcelBinOutput/ManualTextMapConfigData.json",
         "download/TextMap/TextMapEN.json",
     }
@@ -64,6 +66,30 @@ class Lookup:
 
         logger.critical("Unable to find avatar with id %s", avatar_id)
         raise RuntimeError(f"Unable to find avatar with id {avatar_id}")
+
+    @classmethod
+    @cache
+    def material(cls, id_: str) -> dict:
+        if not isinstance(id_, str):
+            id_ = str(id_)
+
+        file = "MaterialExcelConfigData"
+
+        for item in cls.content[file]:
+            if str(item["Id"]) == id_:
+                return item
+
+        logger.critical("Unable to find %s in %s", id_, file)
+        raise RuntimeError(f"Unable to find {id_} in {file}")
+
+    @classmethod
+    @cache
+    def ascension(cls, id_: int) -> dict:
+        return [
+            element
+            for element in cls.content["AvatarPromoteExcelConfigData"]
+            if element["AvatarPromoteId"] == id_
+        ]
 
     @classmethod
     @cache
@@ -116,6 +142,11 @@ def _setup(characters: dict) -> None:
     for element in Lookup.content["AvatarExcelConfigData"]:
         if Lookup.is_playable(element):
             character_id = str(element.get("Id"))
+
+            # TODO
+            # check "download/ExcelBinOutput/AvatarHeroEntityExcelConfigData.json"
+            # to determine if character_id == AvatarId
+
             character_name_hash = str(element.get("NameTextMapHash"))
 
             character_name = Lookup.text_map(character_name_hash)
@@ -150,6 +181,7 @@ def _add_description(characters: dict) -> None:
         },
         ...
     }
+    ```
     """
 
     for avatar_id, avatar_data in characters.items():
@@ -169,6 +201,7 @@ def _add_rarity(characters: dict) -> None:
         },
         ...
     }
+    ```
     """
 
     rarity_conversion = {
@@ -195,6 +228,7 @@ def _add_element(characters: dict) -> None:
         },
         ...
     }
+    ```
     """
 
     for element in Lookup.content["FetterInfoExcelConfigData"]:
@@ -226,6 +260,7 @@ def _add_weapon(characters: dict) -> None:
         },
         ...
     }
+    ```
     """
 
     for avatar_id, avatar_data in characters.items():
@@ -234,12 +269,62 @@ def _add_weapon(characters: dict) -> None:
         avatar_data["weapon"] = Lookup.text_map(weapon_hash)
 
 
+def _add_ascension(chars: dict) -> None:
+    """Add infomation about character ascension."""
+
+    #TODO cleanup code
+
+    for char_id, char_data in chars.items():
+        char_data["ascension"] = []
+
+        logger.info("Adding ascension properties to %s", char_data["name"])
+
+        for ascension in Lookup.ascension(Lookup.avatar(char_id)["AvatarPromoteId"]):
+            if ascension.get("PromoteLevel") is None:
+                continue
+
+            template = {"stat": {}, "cost": {"mora": None, "item": {}}}
+
+            # add stat information
+            for stat in ascension["AddProps"]:
+                # ex: convert `FIGHT_PROP_BASE_HP` to `Base HP`
+                stat_type_hash = Lookup.manual_text_map(stat["PropType"])
+                stat_type = Lookup.text_map(stat_type_hash)
+
+                # early ascension may not have increased stat
+                try:
+                    template["stat"][stat_type] = stat["Value"]
+                except KeyError:
+                    pass
+
+            # add cost information
+            template["cost"]["mora"] = ascension["ScoinCost"]
+            for item in ascension["CostItems"]:
+                if item.get("Id") is None:
+                    continue
+
+                temp = Lookup.material(item["Id"])
+                item_name_hash = str(temp["NameTextMapHash"])
+                item_name = Lookup.text_map(item_name_hash)
+
+                template["cost"]["item"][item_name] = item["Count"]
+
+            char_data["ascension"].append(template)
+
+
 def main():
     """Extracts character data from Dimbreath/GenshinData."""
 
     characters = {}
 
-    functions = [_setup, _add_description, _add_rarity, _add_element, _add_weapon]
+    functions = [
+        _setup,
+        _add_description,
+        _add_rarity,
+        _add_element,
+        _add_weapon,
+        _add_ascension,
+    ]
 
     for function in functions:
         function(characters)
