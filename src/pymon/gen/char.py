@@ -39,46 +39,65 @@ import pymon.log
 logger = pymon.log.get_logger()
 
 
-# TODO: only open files when needed to reduce memory usage
-# load all data to global dictionary
-paths = {
-    "download/ExcelBinOutput/AvatarExcelConfigData.json",
-    "download/ExcelBinOutput/FetterInfoExcelConfigData.json",
-    "download/ExcelBinOutput/ManualTextMapConfigData.json",
-    "download/TextMap/TextMapEN.json",
-}
-content = {f"{pymon.io.file_name(path)}": pymon.io.read(path) for path in paths}
+class Lookup:
+    """For searching through data files for certain key-value pairs."""
 
+    # TODO: only open files when needed to reduce memory usage
+    # load all data to global dictionary
+    paths = {
+        "download/ExcelBinOutput/AvatarExcelConfigData.json",
+        "download/ExcelBinOutput/FetterInfoExcelConfigData.json",
+        "download/ExcelBinOutput/ManualTextMapConfigData.json",
+        "download/TextMap/TextMapEN.json",
+    }
+    content = {f"{pymon.io.file_name(path)}": pymon.io.read(path) for path in paths}
 
-def _is_playable(character: dict) -> bool:
-    """Returns whether a character is playable."""
+    @classmethod
+    @cache
+    def avatar(cls, avatar_id: str) -> dict:
+        """Returns the dictionary corresponding to avatar ID."""
 
-    return character.get("UseType") == "AVATAR_FORMAL"
+        for avatar in cls.content["AvatarExcelConfigData"]:
+            if Lookup.is_playable(avatar) and str(avatar["Id"]) == avatar_id:
+                logger.debug("ID %s matches avatar %s", avatar_id, avatar)
+                return avatar
 
+        logger.critical("Unable to find avatar with id %s", avatar_id)
+        raise RuntimeError(f"Unable to find avatar with id {avatar_id}")
 
-@cache
-def _lookup_hash_of_id(text_map_id: str) -> str:
-    """Given `TextMapId` return `TextMapContentTextMapHash`."""
+    @classmethod
+    @cache
+    def manual_text_map(cls, text_map_id: str) -> str:
+        """Given `TextMapId` return `TextMapContentTextMapHash`."""
 
-    for element in content["ManualTextMapConfigData"]:
-        if element.get("TextMapId") == text_map_id:
-            return str(element.get("TextMapContentTextMapHash"))
+        for element in cls.content["ManualTextMapConfigData"]:
+            if element["TextMapId"] == text_map_id:
+                return str(element["TextMapContentTextMapHash"])
 
-    logger.critical("Unable to find %s in manual text map", text_map_id)
-    raise RuntimeError(f"Unable to find {text_map_id} in manual text map")
+        logger.critical("Unable to find %s in manual text map", text_map_id)
+        raise RuntimeError(f"Unable to find {text_map_id} in manual text map")
 
+    @classmethod
+    @cache
+    def text_map(cls, hash_id: str) -> str:
+        """Given key `hash_` get corresponding value in text map."""
 
-@cache
-def _lookup_text_map(hash_: str) -> str:
-    """Given key `hash_` get corresponding value in text map."""
+        try:
+            value = str(cls.content["TextMapEN"][hash_id])
+            logger.debug("%s returns %s", hash_id, value)
+            return value
+        except KeyError:
+            logger.critical("Invalid hash %s", hash_id)
+            raise
 
-    try:
-        value = content["TextMapEN"][hash_]
-        logger.debug("%s returns %s", hash_, value)
-        return value
-    except KeyError:
-        logger.critical("Invalid hash %s", hash_)
-        raise
+    @staticmethod
+    def is_playable(avatar: dict) -> bool:
+        """Returns whether a character is playable."""
+
+        try:
+            return avatar["UseType"] == "AVATAR_FORMAL"
+        except KeyError:
+            return False
 
 
 def _setup(characters: dict) -> None:
@@ -94,12 +113,12 @@ def _setup(characters: dict) -> None:
     ```
     """
 
-    for element in content["AvatarExcelConfigData"]:
-        if _is_playable(element):
+    for element in Lookup.content["AvatarExcelConfigData"]:
+        if Lookup.is_playable(element):
             character_id = str(element.get("Id"))
             character_name_hash = str(element.get("NameTextMapHash"))
 
-            character_name = _lookup_text_map(character_name_hash)
+            character_name = Lookup.text_map(character_name_hash)
 
             # special case for traveler
             if character_name.lower() == "traveler":
@@ -133,20 +152,11 @@ def _add_description(characters: dict) -> None:
     }
     """
 
-    for element in content["AvatarExcelConfigData"]:
-        if _is_playable(element):
-            character_id = str(element.get("Id"))
-            description_hash = str(element.get("DescTextMapHash"))
-
-            description = content["TextMapEN"].get(description_hash)
-
-            logger.debug(
-                "Name: %s, Description: %s",
-                characters[character_id]["name"],
-                description,
-            )
-
-            characters[character_id]["description"] = description
+    for avatar_id, avatar_data in characters.items():
+        description_hash = str(Lookup.avatar(avatar_id).get("DescTextMapHash"))
+        description = Lookup.text_map(description_hash)
+        logger.debug("Name: %s, Description: %s", avatar_data["name"], description)
+        avatar_data["description"] = description
 
 
 def _add_rarity(characters: dict) -> None:
@@ -167,18 +177,12 @@ def _add_rarity(characters: dict) -> None:
         "QUALITY_ORANGE_SP": "5",
     }
 
-    for element in content["AvatarExcelConfigData"]:
-        if _is_playable(element):
-            character_id = str(element.get("Id"))
-            character_rarity = rarity_conversion.get(element.get("QualityType"))
-
-            logger.debug(
-                "Name: %s, Rarity: %s",
-                characters[character_id]["name"],
-                character_rarity,
-            )
-
-            characters[character_id]["rarity"] = character_rarity
+    for avatar_id, avatar_data in characters.items():
+        character_rarity = rarity_conversion.get(
+            Lookup.avatar(avatar_id).get("QualityType")
+        )
+        logger.debug("Name: %s, Rarity: %s", avatar_data["name"], character_rarity)
+        avatar_data["rarity"] = character_rarity
 
 
 def _add_element(characters: dict) -> None:
@@ -193,14 +197,14 @@ def _add_element(characters: dict) -> None:
     }
     """
 
-    for element in content["FetterInfoExcelConfigData"]:
+    for element in Lookup.content["FetterInfoExcelConfigData"]:
         character_id = str(element.get("AvatarId"))
         vision_before_hash = str(element.get("AvatarVisionBeforTextMapHash"))
         vision_after_hash = str(element.get("AvatarVisionAfterTextMapHash"))
 
         # for archons: vision_before == vision_after
-        vision_before = content["TextMapEN"].get(vision_before_hash)
-        vision_after = content["TextMapEN"].get(vision_after_hash)
+        vision_before = Lookup.text_map(vision_before_hash)
+        vision_after = Lookup.text_map(vision_after_hash)
 
         logger.debug(
             "Name: %s, Vision Before: %s, Vision After: %s",
@@ -224,13 +228,10 @@ def _add_weapon(characters: dict) -> None:
     }
     """
 
-    for element in content["AvatarExcelConfigData"]:
-        if _is_playable(element):
-            character_id = str(element.get("Id"))
-            character_weapon = element.get("WeaponType")
-            weapon_hash = _lookup_hash_of_id(character_weapon)
-
-            characters[character_id]["weapon"] = _lookup_text_map(weapon_hash)
+    for avatar_id, avatar_data in characters.items():
+        character_weapon = Lookup.avatar(avatar_id)["WeaponType"]
+        weapon_hash = Lookup.manual_text_map(character_weapon)
+        avatar_data["weapon"] = Lookup.text_map(weapon_hash)
 
 
 def main():
@@ -243,4 +244,4 @@ def main():
     for function in functions:
         function(characters)
 
-    pymon.io.write("characters.json", characters)
+    pymon.io.write("doc/avatar_sample.json", characters)
