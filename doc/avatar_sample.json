@@ -1,0 +1,303 @@
+{
+    "10000002": {
+        "description": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
+        "element": "Cryo",
+        "name": "Kamisato Ayaka",
+        "rarity": "5",
+        "weapon": "Sword"
+    },
+    "10000003": {
+        "description": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
+        "element": "Anemo",
+        "name": "Jean",
+        "rarity": "5",
+        "weapon": "Sword"
+    },
+    "10000005": {
+        "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+        "element": "None",
+        "name": "Aether",
+        "rarity": "5",
+        "weapon": "Sword"
+    },
+    "10000006": {
+        "description": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
+        "element": "Electro",
+        "name": "Lisa",
+        "rarity": "4",
+        "weapon": "Catalyst"
+    },
+    "10000007": {
+        "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+        "element": "None",
+        "name": "Lumine",
+        "rarity": "5",
+        "weapon": "Sword"
+    },
+    "10000014": {
+        "description": "Every citizen of Mondstadt adores Barbara. She learned the word \"idol\" from a magazine.",
+        "element": "Hydro",
+        "name": "Barbara",
+        "rarity": "4",
+        "weapon": "Catalyst"
+    },
+    "10000015": {
+        "description": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+        "element": "Cryo",
+        "name": "Kaeya",
+        "rarity": "4",
+        "weapon": "Sword"
+    },
+    "10000016": {
+        "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+        "element": "Pyro",
+        "name": "Diluc",
+        "rarity": "5",
+        "weapon": "Claymore"
+    },
+    "10000020": {
+        "description": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+        "element": "Electro",
+        "name": "Razor",
+        "rarity": "4",
+        "weapon": "Claymore"
+    },
+    "10000021": {
+        "description": "Always energetic and full of life, Amber's the best \u2014 albeit only \u2014 Outrider of the Knights of Favonius.",
+        "element": "Pyro",
+        "name": "Amber",
+        "rarity": "4",
+        "weapon": "Bow"
+    },
+    "10000022": {
+        "description": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+        "element": "Anemo",
+        "name": "Venti",
+        "rarity": "5",
+        "weapon": "Bow"
+    },
+    "10000023": {
+        "description": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+        "element": "Pyro",
+        "name": "Xiangling",
+        "rarity": "4",
+        "weapon": "Polearm"
+    },
+    "10000024": {
+        "description": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
+        "element": "Electro",
+        "name": "Beidou",
+        "rarity": "4",
+        "weapon": "Claymore"
+    },
+    "10000025": {
+        "description": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+        "element": "Hydro",
+        "name": "Xingqiu",
+        "rarity": "4",
+        "weapon": "Sword"
+    },
+    "10000026": {
+        "description": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
+        "element": "Anemo",
+        "name": "Xiao",
+        "rarity": "5",
+        "weapon": "Polearm"
+    },
+    "10000027": {
+        "description": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+        "element": "Geo",
+        "name": "Ningguang",
+        "rarity": "4",
+        "weapon": "Catalyst"
+    },
+    "10000029": {
+        "description": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
+        "element": "Pyro",
+        "name": "Klee",
+        "rarity": "5",
+        "weapon": "Catalyst"
+    },
+    "10000030": {
+        "description": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+        "element": "Geo",
+        "name": "Zhongli",
+        "rarity": "5",
+        "weapon": "Polearm"
+    },
+    "10000031": {
+        "description": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+        "element": "Electro",
+        "name": "Fischl",
+        "rarity": "4",
+        "weapon": "Bow"
+    },
+    "10000032": {
+        "description": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+        "element": "Pyro",
+        "name": "Bennett",
+        "rarity": "4",
+        "weapon": "Sword"
+    },
+    "10000033": {
+        "description": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+        "element": "Hydro",
+        "name": "Tartaglia",
+        "rarity": "5",
+        "weapon": "Bow"
+    },
+    "10000034": {
+        "description": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+        "element": "Geo",
+        "name": "Noelle",
+        "rarity": "4",
+        "weapon": "Claymore"
+    },
+    "10000035": {
+        "description": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+        "element": "Cryo",
+        "name": "Qiqi",
+        "rarity": "5",
+        "weapon": "Sword"
+    },
+    "10000036": {
+        "description": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
+        "element": "Cryo",
+        "name": "Chongyun",
+        "rarity": "4",
+        "weapon": "Claymore"
+    },
+    "10000037": {
+        "description": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+        "element": "Cryo",
+        "name": "Ganyu",
+        "rarity": "5",
+        "weapon": "Bow"
+    },
+    "10000038": {
+        "description": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+        "element": "Geo",
+        "name": "Albedo",
+        "rarity": "5",
+        "weapon": "Sword"
+    },
+    "10000039": {
+        "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
+        "element": "Cryo",
+        "name": "Diona",
+        "rarity": "4",
+        "weapon": "Bow"
+    },
+    "10000041": {
+        "description": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+        "element": "Hydro",
+        "name": "Mona",
+        "rarity": "5",
+        "weapon": "Catalyst"
+    },
+    "10000042": {
+        "description": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis's unilateral approach to policymaking in Liyue \u2014 but in truth, gods admire skeptics such as her quite a lot.",
+        "element": "Electro",
+        "name": "Keqing",
+        "rarity": "5",
+        "weapon": "Sword"
+    },
+    "10000043": {
+        "description": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+        "element": "Anemo",
+        "name": "Sucrose",
+        "rarity": "4",
+        "weapon": "Catalyst"
+    },
+    "10000044": {
+        "description": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+        "element": "Pyro",
+        "name": "Xinyan",
+        "rarity": "4",
+        "weapon": "Claymore"
+    },
+    "10000045": {
+        "description": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
+        "element": "Cryo",
+        "name": "Rosaria",
+        "rarity": "4",
+        "weapon": "Polearm"
+    },
+    "10000046": {
+        "description": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+        "element": "Pyro",
+        "name": "Hu Tao",
+        "rarity": "5",
+        "weapon": "Polearm"
+    },
+    "10000047": {
+        "description": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+        "element": "Anemo",
+        "name": "Kaedehara Kazuha",
+        "rarity": "5",
+        "weapon": "Sword"
+    },
+    "10000048": {
+        "description": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+        "element": "Pyro",
+        "name": "Yanfei",
+        "rarity": "4",
+        "weapon": "Catalyst"
+    },
+    "10000049": {
+        "description": "Owner of Naganohara Fireworks. Known as \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+        "element": "Pyro",
+        "name": "Yoimiya",
+        "rarity": "5",
+        "weapon": "Bow"
+    },
+    "10000050": {
+        "description": "The Kamisato Clan's housekeeper. A well-known \"fixer\" in Inazuma.",
+        "element": "Pyro",
+        "name": "Thoma",
+        "rarity": "4",
+        "weapon": "Polearm"
+    },
+    "10000051": {
+        "description": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+        "element": "Cryo",
+        "name": "Eula",
+        "rarity": "5",
+        "weapon": "Claymore"
+    },
+    "10000052": {
+        "description": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
+        "element": "Electro",
+        "name": "Raiden Shogun",
+        "rarity": "5",
+        "weapon": "Polearm"
+    },
+    "10000053": {
+        "description": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+        "element": "Anemo",
+        "name": "Sayu",
+        "rarity": "4",
+        "weapon": "Claymore"
+    },
+    "10000054": {
+        "description": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
+        "element": "Hydro",
+        "name": "Sangonomiya Kokomi",
+        "rarity": "5",
+        "weapon": "Catalyst"
+    },
+    "10000056": {
+        "description": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+        "element": "Electro",
+        "name": "Kujou Sara",
+        "rarity": "4",
+        "weapon": "Bow"
+    },
+    "10000062": {
+        "description": "Formerly an outcast, now a hunter of unparalleled skill. Ready to do the right thing at any time.",
+        "element": "Cryo",
+        "name": "Aloy",
+        "rarity": "5",
+        "weapon": "Bow"
+    }
+}
