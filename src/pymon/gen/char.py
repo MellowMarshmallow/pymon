@@ -39,6 +39,17 @@ import pymon.log
 logger = pymon.log.get_logger()
 
 
+# TODO: only open files when needed to reduce memory usage
+# load all data to global dictionary
+paths = {
+    "download/ExcelBinOutput/AvatarExcelConfigData.json",
+    "download/ExcelBinOutput/FetterInfoExcelConfigData.json",
+    "download/ExcelBinOutput/ManualTextMapConfigData.json",
+    "download/TextMap/TextMapEN.json",
+}
+content = {f"{pymon.io.file_name(path)}": pymon.io.read(path) for path in paths}
+
+
 def _is_playable(character: dict) -> bool:
     """Returns whether a character is playable."""
 
@@ -49,11 +60,7 @@ def _is_playable(character: dict) -> bool:
 def _lookup_hash_of_id(text_map_id: str) -> str:
     """Given `TextMapId` return `TextMapContentTextMapHash`."""
 
-    manual_text_map = pymon.io.read(
-        "download/ExcelBinOutput/ManualTextMapConfigData.json"
-    )
-
-    for element in manual_text_map:
+    for element in content["ManualTextMapConfigData"]:
         if element.get("TextMapId") == text_map_id:
             return str(element.get("TextMapContentTextMapHash"))
 
@@ -65,10 +72,8 @@ def _lookup_hash_of_id(text_map_id: str) -> str:
 def _lookup_text_map(hash_: str) -> str:
     """Given key `hash_` get corresponding value in text map."""
 
-    text_map = pymon.io.read("download/TextMap/TextMapEN.json")
-
     try:
-        value = text_map[hash_]
+        value = content["TextMapEN"][hash_]
         logger.debug("%s returns %s", hash_, value)
         return value
     except KeyError:
@@ -89,9 +94,7 @@ def _setup(characters: dict) -> None:
     ```
     """
 
-    character_data = pymon.io.read("download/ExcelBinOutput/AvatarExcelConfigData.json")
-
-    for element in character_data:
+    for element in content["AvatarExcelConfigData"]:
         if _is_playable(element):
             character_id = str(element.get("Id"))
             character_name_hash = str(element.get("NameTextMapHash"))
@@ -130,15 +133,12 @@ def _add_description(characters: dict) -> None:
     }
     """
 
-    character_data = pymon.io.read("download/ExcelBinOutput/AvatarExcelConfigData.json")
-    text_hash_map = pymon.io.read("download/TextMap/TextMapEN.json")
-
-    for element in character_data:
+    for element in content["AvatarExcelConfigData"]:
         if _is_playable(element):
             character_id = str(element.get("Id"))
             description_hash = str(element.get("DescTextMapHash"))
 
-            description = text_hash_map.get(description_hash)
+            description = content["TextMapEN"].get(description_hash)
 
             logger.debug(
                 "Name: %s, Description: %s",
@@ -161,14 +161,13 @@ def _add_rarity(characters: dict) -> None:
     }
     """
 
-    character_data = pymon.io.read("download/ExcelBinOutput/AvatarExcelConfigData.json")
     rarity_conversion = {
         "QUALITY_PURPLE": "4",
         "QUALITY_ORANGE": "5",
         "QUALITY_ORANGE_SP": "5",
     }
 
-    for element in character_data:
+    for element in content["AvatarExcelConfigData"]:
         if _is_playable(element):
             character_id = str(element.get("Id"))
             character_rarity = rarity_conversion.get(element.get("QualityType"))
@@ -194,17 +193,14 @@ def _add_element(characters: dict) -> None:
     }
     """
 
-    fetter = pymon.io.read("download/ExcelBinOutput/FetterInfoExcelConfigData.json")
-    text_hash_map = pymon.io.read("download/TextMap/TextMapEN.json")
-
-    for element in fetter:
+    for element in content["FetterInfoExcelConfigData"]:
         character_id = str(element.get("AvatarId"))
         vision_before_hash = str(element.get("AvatarVisionBeforTextMapHash"))
         vision_after_hash = str(element.get("AvatarVisionAfterTextMapHash"))
 
         # for archons: vision_before == vision_after
-        vision_before = text_hash_map.get(vision_before_hash)
-        vision_after = text_hash_map.get(vision_after_hash)
+        vision_before = content["TextMapEN"].get(vision_before_hash)
+        vision_after = content["TextMapEN"].get(vision_after_hash)
 
         logger.debug(
             "Name: %s, Vision Before: %s, Vision After: %s",
@@ -228,9 +224,7 @@ def _add_weapon(characters: dict) -> None:
     }
     """
 
-    character_data = pymon.io.read("download/ExcelBinOutput/AvatarExcelConfigData.json")
-
-    for element in character_data:
+    for element in content["AvatarExcelConfigData"]:
         if _is_playable(element):
             character_id = str(element.get("Id"))
             character_weapon = element.get("WeaponType")
