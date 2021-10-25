@@ -1,5 +1,107 @@
 {
     "10000002": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Old Handguard": 3,
+                        "Sakura Bloom": 3,
+                        "Shivada Jade Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 22.82823371887207,
+                    "Base DEF": 52.32600021362305,
+                    "Base HP": 858.2550048828125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Old Handguard": 15,
+                        "Perpetual Heart": 2,
+                        "Sakura Bloom": 10,
+                        "Shivada Jade Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 39.04829406738281,
+                    "Base DEF": 89.50499725341797,
+                    "Base HP": 1468.0677490234375,
+                    "CRIT DMG": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Kageuchi Handguard": 12,
+                        "Perpetual Heart": 4,
+                        "Sakura Bloom": 20,
+                        "Shivada Jade Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 60.67504119873047,
+                    "Base DEF": 139.07699584960938,
+                    "Base HP": 2281.1513671875,
+                    "CRIT DMG": 0.19200000166893005
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Kageuchi Handguard": 18,
+                        "Perpetual Heart": 8,
+                        "Sakura Bloom": 30,
+                        "Shivada Jade Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 76.89510345458984,
+                    "Base DEF": 176.25599670410156,
+                    "Base HP": 2890.964111328125,
+                    "CRIT DMG": 0.19200000166893005
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Famed Handguard": 12,
+                        "Perpetual Heart": 12,
+                        "Sakura Bloom": 45,
+                        "Shivada Jade Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 93.11516571044922,
+                    "Base DEF": 213.43499755859375,
+                    "Base HP": 3500.77685546875,
+                    "CRIT DMG": 0.2879999876022339
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Famed Handguard": 24,
+                        "Perpetual Heart": 20,
+                        "Sakura Bloom": 60,
+                        "Shivada Jade Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 109.3352279663086,
+                    "Base DEF": 250.61399841308594,
+                    "Base HP": 4110.58984375,
+                    "CRIT DMG": 0.3840000033378601
+                }
+            }
+        ],
         "description": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
         "element": "Cryo",
         "name": "Kamisato Ayaka",
@@ -7,6 +109,108 @@
         "weapon": "Sword"
     },
     "10000003": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Damaged Mask": 3,
+                        "Dandelion Seed": 3,
+                        "Vayuda Turquoise Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 15.963800430297852,
+                    "Base DEF": 51.29999923706055,
+                    "Base HP": 980.8628540039062
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Damaged Mask": 15,
+                        "Dandelion Seed": 10,
+                        "Hurricane Seed": 2,
+                        "Vayuda Turquoise Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 27.306499481201172,
+                    "Base DEF": 87.75,
+                    "Base HP": 1677.791748046875,
+                    "Healing Bonus": 0.055399999022483826
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dandelion Seed": 20,
+                        "Hurricane Seed": 4,
+                        "Stained Mask": 12,
+                        "Vayuda Turquoise Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 42.43009948730469,
+                    "Base DEF": 136.35000610351562,
+                    "Base HP": 2607.0302734375,
+                    "Healing Bonus": 0.11079999804496765
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dandelion Seed": 30,
+                        "Hurricane Seed": 8,
+                        "Stained Mask": 18,
+                        "Vayuda Turquoise Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 53.77280044555664,
+                    "Base DEF": 172.8000030517578,
+                    "Base HP": 3303.958984375,
+                    "Healing Bonus": 0.11079999804496765
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dandelion Seed": 45,
+                        "Hurricane Seed": 12,
+                        "Ominous Mask": 12,
+                        "Vayuda Turquoise Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 65.1155014038086,
+                    "Base DEF": 209.25,
+                    "Base HP": 4000.887939453125,
+                    "Healing Bonus": 0.16619999706745148
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dandelion Seed": 60,
+                        "Hurricane Seed": 20,
+                        "Ominous Mask": 24,
+                        "Vayuda Turquoise Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 76.45819854736328,
+                    "Base DEF": 245.6999969482422,
+                    "Base HP": 4697.81689453125,
+                    "Healing Bonus": 0.2214999943971634
+                }
+            }
+        ],
         "description": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
         "element": "Anemo",
         "name": "Jean",
@@ -14,6 +218,103 @@
         "weapon": "Sword"
     },
     "10000005": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Sliver": 1,
+                        "Damaged Mask": 3,
+                        "Windwheel Aster": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 13.303799629211426,
+                    "Base DEF": 42.75,
+                    "Base HP": 681.154541015625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Fragment": 3,
+                        "Damaged Mask": 15,
+                        "Windwheel Aster": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "ATK": 0.05999999865889549,
+                    "Base ATK": 22.756500244140625,
+                    "Base DEF": 73.125,
+                    "Base HP": 1165.1328125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Fragment": 6,
+                        "Stained Mask": 12,
+                        "Windwheel Aster": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 35.36009979248047,
+                    "Base DEF": 113.625,
+                    "Base HP": 1810.4371337890625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Chunk": 3,
+                        "Stained Mask": 18,
+                        "Windwheel Aster": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 44.812801361083984,
+                    "Base DEF": 144.0,
+                    "Base HP": 2294.415283203125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Chunk": 6,
+                        "Ominous Mask": 12,
+                        "Windwheel Aster": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "ATK": 0.18000000715255737,
+                    "Base ATK": 54.265499114990234,
+                    "Base DEF": 174.375,
+                    "Base HP": 2778.3935546875
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Gemstone": 6,
+                        "Ominous Mask": 24,
+                        "Windwheel Aster": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "ATK": 0.23999999463558197,
+                    "Base ATK": 63.71820068359375,
+                    "Base DEF": 204.75,
+                    "Base HP": 3262.371826171875
+                }
+            }
+        ],
         "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
         "element": "None",
         "name": "Aether",
@@ -21,6 +322,108 @@
         "weapon": "Sword"
     },
     "10000006": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Slime Condensate": 3,
+                        "Vajrada Amethyst Sliver": 1,
+                        "Valberry": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 14.501141548156738,
+                    "Base DEF": 35.90999984741211,
+                    "Base HP": 599.416015625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 2,
+                        "Slime Condensate": 15,
+                        "Vajrada Amethyst Fragment": 3,
+                        "Valberry": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 24.804584503173828,
+                    "Base DEF": 61.42499923706055,
+                    "Base HP": 1025.31689453125,
+                    "Elemental Mastery": 24.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 4,
+                        "Slime Secretions": 12,
+                        "Vajrada Amethyst Fragment": 6,
+                        "Valberry": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 38.54250717163086,
+                    "Base DEF": 95.44499969482422,
+                    "Base HP": 1593.1846923828125,
+                    "Elemental Mastery": 48.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 8,
+                        "Slime Secretions": 18,
+                        "Vajrada Amethyst Chunk": 3,
+                        "Valberry": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 48.845951080322266,
+                    "Base DEF": 120.95999908447266,
+                    "Base HP": 2019.0855712890625,
+                    "Elemental Mastery": 48.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 12,
+                        "Slime Concentrate": 12,
+                        "Vajrada Amethyst Chunk": 6,
+                        "Valberry": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 59.14939498901367,
+                    "Base DEF": 146.47500610351562,
+                    "Base HP": 2444.986328125,
+                    "Elemental Mastery": 72.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 20,
+                        "Slime Concentrate": 24,
+                        "Vajrada Amethyst Gemstone": 6,
+                        "Valberry": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 69.45283508300781,
+                    "Base DEF": 171.99000549316406,
+                    "Base HP": 2870.88720703125,
+                    "Elemental Mastery": 96.0
+                }
+            }
+        ],
         "description": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
         "element": "Electro",
         "name": "Lisa",
@@ -28,6 +431,103 @@
         "weapon": "Catalyst"
     },
     "10000007": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Sliver": 1,
+                        "Damaged Mask": 3,
+                        "Windwheel Aster": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 13.303799629211426,
+                    "Base DEF": 42.75,
+                    "Base HP": 681.154541015625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Fragment": 3,
+                        "Damaged Mask": 15,
+                        "Windwheel Aster": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "ATK": 0.05999999865889549,
+                    "Base ATK": 22.756500244140625,
+                    "Base DEF": 73.125,
+                    "Base HP": 1165.1328125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Fragment": 6,
+                        "Stained Mask": 12,
+                        "Windwheel Aster": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 35.36009979248047,
+                    "Base DEF": 113.625,
+                    "Base HP": 1810.4371337890625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Chunk": 3,
+                        "Stained Mask": 18,
+                        "Windwheel Aster": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 44.812801361083984,
+                    "Base DEF": 144.0,
+                    "Base HP": 2294.415283203125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Chunk": 6,
+                        "Ominous Mask": 12,
+                        "Windwheel Aster": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "ATK": 0.18000000715255737,
+                    "Base ATK": 54.265499114990234,
+                    "Base DEF": 174.375,
+                    "Base HP": 2778.3935546875
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Brilliant Diamond Gemstone": 6,
+                        "Ominous Mask": 24,
+                        "Windwheel Aster": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "ATK": 0.23999999463558197,
+                    "Base ATK": 63.71820068359375,
+                    "Base DEF": 204.75,
+                    "Base HP": 3262.371826171875
+                }
+            }
+        ],
         "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
         "element": "None",
         "name": "Lumine",
@@ -35,6 +535,108 @@
         "weapon": "Sword"
     },
     "10000014": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Divining Scroll": 3,
+                        "Philanemo Mushroom": 3,
+                        "Varunada Lazurite Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 9.977849960327148,
+                    "Base DEF": 41.89500045776367,
+                    "Base HP": 613.0391235351562
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 2,
+                        "Divining Scroll": 15,
+                        "Philanemo Mushroom": 10,
+                        "Varunada Lazurite Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 17.06737518310547,
+                    "Base DEF": 71.6624984741211,
+                    "Base HP": 1048.6195068359375,
+                    "HP": 0.05999999865889549
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 4,
+                        "Philanemo Mushroom": 20,
+                        "Sealed Scroll": 12,
+                        "Varunada Lazurite Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 26.52007484436035,
+                    "Base DEF": 111.35250091552734,
+                    "Base HP": 1629.3934326171875,
+                    "HP": 0.11999999731779099
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 8,
+                        "Philanemo Mushroom": 30,
+                        "Sealed Scroll": 18,
+                        "Varunada Lazurite Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 33.60960006713867,
+                    "Base DEF": 141.1199951171875,
+                    "Base HP": 2064.973876953125,
+                    "HP": 0.11999999731779099
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 12,
+                        "Forbidden Curse Scroll": 12,
+                        "Philanemo Mushroom": 45,
+                        "Varunada Lazurite Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 40.69912338256836,
+                    "Base DEF": 170.8874969482422,
+                    "Base HP": 2500.55419921875,
+                    "HP": 0.18000000715255737
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 20,
+                        "Forbidden Curse Scroll": 24,
+                        "Philanemo Mushroom": 60,
+                        "Varunada Lazurite Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 47.78865051269531,
+                    "Base DEF": 200.65499877929688,
+                    "Base HP": 2936.134765625,
+                    "HP": 0.23999999463558197
+                }
+            }
+        ],
         "description": "Every citizen of Mondstadt adores Barbara. She learned the word \"idol\" from a magazine.",
         "element": "Hydro",
         "name": "Barbara",
@@ -42,6 +644,108 @@
         "weapon": "Catalyst"
     },
     "10000015": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 3,
+                        "Shivada Jade Sliver": 1,
+                        "Treasure Hoarder Insignia": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 13.968990325927734,
+                    "Base DEF": 49.59000015258789,
+                    "Base HP": 728.8353881835938
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 10,
+                        "Hoarfrost Core": 2,
+                        "Shivada Jade Fragment": 3,
+                        "Treasure Hoarder Insignia": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 23.894325256347656,
+                    "Base DEF": 84.82499694824219,
+                    "Base HP": 1246.692138671875,
+                    "Energy Recharge": 0.06669999659061432
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 20,
+                        "Hoarfrost Core": 4,
+                        "Shivada Jade Fragment": 6,
+                        "Silver Raven Insignia": 12
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 37.12810516357422,
+                    "Base DEF": 131.80499267578125,
+                    "Base HP": 1937.167724609375,
+                    "Energy Recharge": 0.13330000638961792
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 30,
+                        "Hoarfrost Core": 8,
+                        "Shivada Jade Chunk": 3,
+                        "Silver Raven Insignia": 18
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 47.05344009399414,
+                    "Base DEF": 167.0399932861328,
+                    "Base HP": 2455.0244140625,
+                    "Energy Recharge": 0.13330000638961792
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 45,
+                        "Golden Raven Insignia": 12,
+                        "Hoarfrost Core": 12,
+                        "Shivada Jade Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 56.97877502441406,
+                    "Base DEF": 202.27499389648438,
+                    "Base HP": 2972.881103515625,
+                    "Energy Recharge": 0.20000000298023224
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 60,
+                        "Golden Raven Insignia": 24,
+                        "Hoarfrost Core": 20,
+                        "Shivada Jade Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 66.90411376953125,
+                    "Base DEF": 237.50999450683594,
+                    "Base HP": 3490.73779296875,
+                    "Energy Recharge": 0.26669999957084656
+                }
+            }
+        ],
         "description": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
         "element": "Cryo",
         "name": "Kaeya",
@@ -49,6 +753,108 @@
         "weapon": "Sword"
     },
     "10000016": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Sliver": 1,
+                        "Recruit's Insignia": 3,
+                        "Small Lamp Grass": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 22.349319458007812,
+                    "Base DEF": 52.32600021362305,
+                    "Base HP": 866.4288330078125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 3,
+                        "Everflame Seed": 2,
+                        "Recruit's Insignia": 15,
+                        "Small Lamp Grass": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 38.22909927368164,
+                    "Base DEF": 89.50499725341797,
+                    "Base HP": 1482.04931640625,
+                    "CRIT Rate": 0.04800000041723251
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 6,
+                        "Everflame Seed": 4,
+                        "Sergeant's Insignia": 12,
+                        "Small Lamp Grass": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 59.40214157104492,
+                    "Base DEF": 139.07699584960938,
+                    "Base HP": 2302.876708984375,
+                    "CRIT Rate": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 3,
+                        "Everflame Seed": 8,
+                        "Sergeant's Insignia": 18,
+                        "Small Lamp Grass": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 75.28192138671875,
+                    "Base DEF": 176.25599670410156,
+                    "Base HP": 2918.4970703125,
+                    "CRIT Rate": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 6,
+                        "Everflame Seed": 12,
+                        "Lieutenant's Insignia": 12,
+                        "Small Lamp Grass": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 91.16169738769531,
+                    "Base DEF": 213.43499755859375,
+                    "Base HP": 3534.11767578125,
+                    "CRIT Rate": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Gemstone": 6,
+                        "Everflame Seed": 20,
+                        "Lieutenant's Insignia": 24,
+                        "Small Lamp Grass": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 107.0414810180664,
+                    "Base DEF": 250.61399841308594,
+                    "Base HP": 4149.73828125,
+                    "CRIT Rate": 0.19200000166893005
+                }
+            }
+        ],
         "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
         "element": "Pyro",
         "name": "Diluc",
@@ -56,6 +862,108 @@
         "weapon": "Claymore"
     },
     "10000020": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Damaged Mask": 3,
+                        "Vajrada Amethyst Sliver": 1,
+                        "Wolfhook": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 14.634180068969727,
+                    "Base DEF": 47.025001525878906,
+                    "Base HP": 749.27001953125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Damaged Mask": 15,
+                        "Lightning Prism": 2,
+                        "Vajrada Amethyst Fragment": 3,
+                        "Wolfhook": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 25.032150268554688,
+                    "Base DEF": 80.4375,
+                    "Base HP": 1281.6461181640625,
+                    "Physical DMG Bonus": 0.07500000298023224
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 4,
+                        "Stained Mask": 12,
+                        "Vajrada Amethyst Fragment": 6,
+                        "Wolfhook": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 38.89611053466797,
+                    "Base DEF": 124.98750305175781,
+                    "Base HP": 1991.4808349609375,
+                    "Physical DMG Bonus": 0.15000000596046448
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 8,
+                        "Stained Mask": 18,
+                        "Vajrada Amethyst Chunk": 3,
+                        "Wolfhook": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 49.2940788269043,
+                    "Base DEF": 158.39999389648438,
+                    "Base HP": 2523.85693359375,
+                    "Physical DMG Bonus": 0.15000000596046448
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 12,
+                        "Ominous Mask": 12,
+                        "Vajrada Amethyst Chunk": 6,
+                        "Wolfhook": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 59.69205093383789,
+                    "Base DEF": 191.8125,
+                    "Base HP": 3056.23291015625,
+                    "Physical DMG Bonus": 0.22499999403953552
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 20,
+                        "Ominous Mask": 24,
+                        "Vajrada Amethyst Gemstone": 6,
+                        "Wolfhook": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 70.09001922607422,
+                    "Base DEF": 225.22500610351562,
+                    "Base HP": 3588.609130859375,
+                    "Physical DMG Bonus": 0.30000001192092896
+                }
+            }
+        ],
         "description": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
         "element": "Electro",
         "name": "Razor",
@@ -63,6 +971,108 @@
         "weapon": "Claymore"
     },
     "10000021": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Sliver": 1,
+                        "Firm Arrowhead": 3,
+                        "Small Lamp Grass": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 13.968990325927734,
+                    "Base DEF": 37.619998931884766,
+                    "Base HP": 592.6044921875
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 3,
+                        "Everflame Seed": 2,
+                        "Firm Arrowhead": 15,
+                        "Small Lamp Grass": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "ATK": 0.05999999865889549,
+                    "Base ATK": 23.894325256347656,
+                    "Base DEF": 64.3499984741211,
+                    "Base HP": 1013.66552734375
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 6,
+                        "Everflame Seed": 4,
+                        "Sharp Arrowhead": 12,
+                        "Small Lamp Grass": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 37.12810516357422,
+                    "Base DEF": 99.98999786376953,
+                    "Base HP": 1575.080322265625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 3,
+                        "Everflame Seed": 8,
+                        "Sharp Arrowhead": 18,
+                        "Small Lamp Grass": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 47.05344009399414,
+                    "Base DEF": 126.72000122070312,
+                    "Base HP": 1996.141357421875
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 6,
+                        "Everflame Seed": 12,
+                        "Small Lamp Grass": 45,
+                        "Weathered Arrowhead": 12
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "ATK": 0.18000000715255737,
+                    "Base ATK": 56.97877502441406,
+                    "Base DEF": 153.4499969482422,
+                    "Base HP": 2417.202392578125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Gemstone": 6,
+                        "Everflame Seed": 20,
+                        "Small Lamp Grass": 60,
+                        "Weathered Arrowhead": 24
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "ATK": 0.23999999463558197,
+                    "Base ATK": 66.90411376953125,
+                    "Base DEF": 180.17999267578125,
+                    "Base HP": 2838.263427734375
+                }
+            }
+        ],
         "description": "Always energetic and full of life, Amber's the best \u2014 albeit only \u2014 Outrider of the Knights of Favonius.",
         "element": "Pyro",
         "name": "Amber",
@@ -70,6 +1080,108 @@
         "weapon": "Bow"
     },
     "10000022": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Cecilia": 3,
+                        "Slime Condensate": 3,
+                        "Vayuda Turquoise Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 17.5601806640625,
+                    "Base DEF": 44.63100051879883,
+                    "Base HP": 702.9517211914062
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cecilia": 10,
+                        "Hurricane Seed": 2,
+                        "Slime Condensate": 15,
+                        "Vayuda Turquoise Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 30.03714942932129,
+                    "Base DEF": 76.34249877929688,
+                    "Base HP": 1202.4173583984375,
+                    "Energy Recharge": 0.07999999821186066
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cecilia": 20,
+                        "Hurricane Seed": 4,
+                        "Slime Secretions": 12,
+                        "Vayuda Turquoise Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 46.67311096191406,
+                    "Base DEF": 118.62449645996094,
+                    "Base HP": 1868.37158203125,
+                    "Energy Recharge": 0.1599999964237213
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cecilia": 30,
+                        "Hurricane Seed": 8,
+                        "Slime Secretions": 18,
+                        "Vayuda Turquoise Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 59.150081634521484,
+                    "Base DEF": 150.33599853515625,
+                    "Base HP": 2367.83740234375,
+                    "Energy Recharge": 0.1599999964237213
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cecilia": 45,
+                        "Hurricane Seed": 12,
+                        "Slime Concentrate": 12,
+                        "Vayuda Turquoise Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 71.6270523071289,
+                    "Base DEF": 182.04750061035156,
+                    "Base HP": 2867.302978515625,
+                    "Energy Recharge": 0.23999999463558197
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cecilia": 60,
+                        "Hurricane Seed": 20,
+                        "Slime Concentrate": 24,
+                        "Vayuda Turquoise Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 84.10401916503906,
+                    "Base DEF": 213.75900268554688,
+                    "Base HP": 3366.768798828125,
+                    "Energy Recharge": 0.3199999928474426
+                }
+            }
+        ],
         "description": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
         "element": "Anemo",
         "name": "Venti",
@@ -77,6 +1189,108 @@
         "weapon": "Bow"
     },
     "10000023": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Sliver": 1,
+                        "Jueyun Chili": 3,
+                        "Slime Condensate": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 14.102027893066406,
+                    "Base DEF": 41.89500045776367,
+                    "Base HP": 681.154541015625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 3,
+                        "Everflame Seed": 2,
+                        "Jueyun Chili": 10,
+                        "Slime Condensate": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 24.121889114379883,
+                    "Base DEF": 71.6624984741211,
+                    "Base HP": 1165.1328125,
+                    "Elemental Mastery": 24.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 6,
+                        "Everflame Seed": 4,
+                        "Jueyun Chili": 20,
+                        "Slime Secretions": 12
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 37.48170471191406,
+                    "Base DEF": 111.35250091552734,
+                    "Base HP": 1810.4371337890625,
+                    "Elemental Mastery": 48.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 3,
+                        "Everflame Seed": 8,
+                        "Jueyun Chili": 30,
+                        "Slime Secretions": 18
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 47.50156784057617,
+                    "Base DEF": 141.1199951171875,
+                    "Base HP": 2294.415283203125,
+                    "Elemental Mastery": 48.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 6,
+                        "Everflame Seed": 12,
+                        "Jueyun Chili": 45,
+                        "Slime Concentrate": 12
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 57.52143096923828,
+                    "Base DEF": 170.8874969482422,
+                    "Base HP": 2778.3935546875,
+                    "Elemental Mastery": 72.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Gemstone": 6,
+                        "Everflame Seed": 20,
+                        "Jueyun Chili": 60,
+                        "Slime Concentrate": 24
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 67.54129028320312,
+                    "Base DEF": 200.65499877929688,
+                    "Base HP": 3262.371826171875,
+                    "Elemental Mastery": 96.0
+                }
+            }
+        ],
         "description": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
         "element": "Pyro",
         "name": "Xiangling",
@@ -84,6 +1298,108 @@
         "weapon": "Polearm"
     },
     "10000024": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Noctilucous Jade": 3,
+                        "Treasure Hoarder Insignia": 3,
+                        "Vajrada Amethyst Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 14.102027893066406,
+                    "Base DEF": 40.61249923706055,
+                    "Base HP": 817.385498046875
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 2,
+                        "Noctilucous Jade": 10,
+                        "Treasure Hoarder Insignia": 15,
+                        "Vajrada Amethyst Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 24.121889114379883,
+                    "Base DEF": 69.46875,
+                    "Base HP": 1398.1593017578125,
+                    "Electro DMG Bonus": 0.05999999865889549
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 4,
+                        "Noctilucous Jade": 20,
+                        "Silver Raven Insignia": 12,
+                        "Vajrada Amethyst Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 37.48170471191406,
+                    "Base DEF": 107.9437484741211,
+                    "Base HP": 2172.524658203125,
+                    "Electro DMG Bonus": 0.11999999731779099
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 8,
+                        "Noctilucous Jade": 30,
+                        "Silver Raven Insignia": 18,
+                        "Vajrada Amethyst Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 47.50156784057617,
+                    "Base DEF": 136.8000030517578,
+                    "Base HP": 2753.29833984375,
+                    "Electro DMG Bonus": 0.11999999731779099
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Golden Raven Insignia": 12,
+                        "Lightning Prism": 12,
+                        "Noctilucous Jade": 45,
+                        "Vajrada Amethyst Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 57.52143096923828,
+                    "Base DEF": 165.65625,
+                    "Base HP": 3334.072265625,
+                    "Electro DMG Bonus": 0.18000000715255737
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Golden Raven Insignia": 24,
+                        "Lightning Prism": 20,
+                        "Noctilucous Jade": 60,
+                        "Vajrada Amethyst Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 67.54129028320312,
+                    "Base DEF": 194.5124969482422,
+                    "Base HP": 3914.84619140625,
+                    "Electro DMG Bonus": 0.23999999463558197
+                }
+            }
+        ],
         "description": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
         "element": "Electro",
         "name": "Beidou",
@@ -91,6 +1407,108 @@
         "weapon": "Claymore"
     },
     "10000025": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Damaged Mask": 3,
+                        "Silk Flower": 3,
+                        "Varunada Lazurite Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 12.638609886169434,
+                    "Base DEF": 47.45249938964844,
+                    "Base HP": 640.2852783203125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 2,
+                        "Damaged Mask": 15,
+                        "Silk Flower": 10,
+                        "Varunada Lazurite Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "ATK": 0.05999999865889549,
+                    "Base ATK": 21.618675231933594,
+                    "Base DEF": 81.16874694824219,
+                    "Base HP": 1095.224853515625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 4,
+                        "Silk Flower": 20,
+                        "Stained Mask": 12,
+                        "Varunada Lazurite Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 33.59209442138672,
+                    "Base DEF": 126.12374877929688,
+                    "Base HP": 1701.8109130859375
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 8,
+                        "Silk Flower": 30,
+                        "Stained Mask": 18,
+                        "Varunada Lazurite Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 42.57215881347656,
+                    "Base DEF": 159.83999633789062,
+                    "Base HP": 2156.75048828125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 12,
+                        "Ominous Mask": 12,
+                        "Silk Flower": 45,
+                        "Varunada Lazurite Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "ATK": 0.18000000715255737,
+                    "Base ATK": 51.552223205566406,
+                    "Base DEF": 193.55624389648438,
+                    "Base HP": 2611.68994140625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 20,
+                        "Ominous Mask": 24,
+                        "Silk Flower": 60,
+                        "Varunada Lazurite Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "ATK": 0.23999999463558197,
+                    "Base ATK": 60.532291412353516,
+                    "Base DEF": 227.2725067138672,
+                    "Base HP": 3066.629638671875
+                }
+            }
+        ],
         "description": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
         "element": "Hydro",
         "name": "Xingqiu",
@@ -98,6 +1516,108 @@
         "weapon": "Sword"
     },
     "10000026": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Qingxin": 3,
+                        "Slime Condensate": 3,
+                        "Vayuda Turquoise Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 23.307147979736328,
+                    "Base DEF": 53.35200119018555,
+                    "Base HP": 850.0811157226562
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Juvenile Jade": 2,
+                        "Qingxin": 10,
+                        "Slime Condensate": 15,
+                        "Vayuda Turquoise Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 39.867488861083984,
+                    "Base DEF": 91.26000213623047,
+                    "Base HP": 1454.086181640625,
+                    "CRIT Rate": 0.04800000041723251
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Juvenile Jade": 4,
+                        "Qingxin": 20,
+                        "Slime Secretions": 12,
+                        "Vayuda Turquoise Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 61.94794464111328,
+                    "Base DEF": 141.8040008544922,
+                    "Base HP": 2259.42626953125,
+                    "CRIT Rate": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Juvenile Jade": 8,
+                        "Qingxin": 30,
+                        "Slime Secretions": 18,
+                        "Vayuda Turquoise Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 78.50828552246094,
+                    "Base DEF": 179.71200561523438,
+                    "Base HP": 2863.43115234375,
+                    "CRIT Rate": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Juvenile Jade": 12,
+                        "Qingxin": 45,
+                        "Slime Concentrate": 12,
+                        "Vayuda Turquoise Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 95.0686264038086,
+                    "Base DEF": 217.6199951171875,
+                    "Base HP": 3467.436279296875,
+                    "CRIT Rate": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Juvenile Jade": 20,
+                        "Qingxin": 60,
+                        "Slime Concentrate": 24,
+                        "Vayuda Turquoise Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 111.62897491455078,
+                    "Base DEF": 255.5279998779297,
+                    "Base HP": 4071.441162109375,
+                    "CRIT Rate": 0.19200000166893005
+                }
+            }
+        ],
         "description": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
         "element": "Anemo",
         "name": "Xiao",
@@ -105,6 +1625,108 @@
         "weapon": "Polearm"
     },
     "10000027": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Glaze Lily": 3,
+                        "Prithiva Topaz Sliver": 1,
+                        "Recruit's Insignia": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 13.303799629211426,
+                    "Base DEF": 35.90999984741211,
+                    "Base HP": 613.0391235351562
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 2,
+                        "Glaze Lily": 10,
+                        "Prithiva Topaz Fragment": 3,
+                        "Recruit's Insignia": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 22.756500244140625,
+                    "Base DEF": 61.42499923706055,
+                    "Base HP": 1048.6195068359375,
+                    "Geo DMG Bonus": 0.05999999865889549
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 4,
+                        "Glaze Lily": 20,
+                        "Prithiva Topaz Fragment": 6,
+                        "Sergeant's Insignia": 12
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 35.36009979248047,
+                    "Base DEF": 95.44499969482422,
+                    "Base HP": 1629.3934326171875,
+                    "Geo DMG Bonus": 0.11999999731779099
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 8,
+                        "Glaze Lily": 30,
+                        "Prithiva Topaz Chunk": 3,
+                        "Sergeant's Insignia": 18
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 44.812801361083984,
+                    "Base DEF": 120.95999908447266,
+                    "Base HP": 2064.973876953125,
+                    "Geo DMG Bonus": 0.11999999731779099
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 12,
+                        "Glaze Lily": 45,
+                        "Lieutenant's Insignia": 12,
+                        "Prithiva Topaz Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 54.265499114990234,
+                    "Base DEF": 146.47500610351562,
+                    "Base HP": 2500.55419921875,
+                    "Geo DMG Bonus": 0.18000000715255737
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 20,
+                        "Glaze Lily": 60,
+                        "Lieutenant's Insignia": 24,
+                        "Prithiva Topaz Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 63.71820068359375,
+                    "Base DEF": 171.99000549316406,
+                    "Base HP": 2936.134765625,
+                    "Geo DMG Bonus": 0.23999999463558197
+                }
+            }
+        ],
         "description": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
         "element": "Geo",
         "name": "Ningguang",
@@ -112,6 +1734,108 @@
         "weapon": "Catalyst"
     },
     "10000029": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Sliver": 1,
+                        "Divining Scroll": 3,
+                        "Philanemo Mushroom": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 20.752939224243164,
+                    "Base DEF": 41.040000915527344,
+                    "Base HP": 686.60400390625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 3,
+                        "Divining Scroll": 15,
+                        "Everflame Seed": 2,
+                        "Philanemo Mushroom": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 35.498451232910156,
+                    "Base DEF": 70.19999694824219,
+                    "Base HP": 1174.4542236328125,
+                    "Pyro DMG Bonus": 0.07199999690055847
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 6,
+                        "Everflame Seed": 4,
+                        "Philanemo Mushroom": 20,
+                        "Sealed Scroll": 12
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 55.15913009643555,
+                    "Base DEF": 109.08000183105469,
+                    "Base HP": 1824.921142578125,
+                    "Pyro DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 3,
+                        "Everflame Seed": 8,
+                        "Philanemo Mushroom": 30,
+                        "Sealed Scroll": 18
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 69.9046401977539,
+                    "Base DEF": 138.24000549316406,
+                    "Base HP": 2312.771240234375,
+                    "Pyro DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 6,
+                        "Everflame Seed": 12,
+                        "Forbidden Curse Scroll": 12,
+                        "Philanemo Mushroom": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 84.650146484375,
+                    "Base DEF": 167.39999389648438,
+                    "Base HP": 2800.62158203125,
+                    "Pyro DMG Bonus": 0.2160000056028366
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Gemstone": 6,
+                        "Everflame Seed": 20,
+                        "Forbidden Curse Scroll": 24,
+                        "Philanemo Mushroom": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 99.39566040039062,
+                    "Base DEF": 196.55999755859375,
+                    "Base HP": 3288.4716796875,
+                    "Pyro DMG Bonus": 0.2879999876022339
+                }
+            }
+        ],
         "description": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
         "element": "Pyro",
         "name": "Klee",
@@ -119,6 +1843,108 @@
         "weapon": "Catalyst"
     },
     "10000030": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 3,
+                        "Prithiva Topaz Sliver": 1,
+                        "Slime Condensate": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 16.761999130249023,
+                    "Base DEF": 49.24800109863281,
+                    "Base HP": 980.86279296875
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 2,
+                        "Cor Lapis": 10,
+                        "Prithiva Topaz Fragment": 3,
+                        "Slime Condensate": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 28.67180061340332,
+                    "Base DEF": 84.23999786376953,
+                    "Base HP": 1677.791748046875,
+                    "Geo DMG Bonus": 0.07199999690055847
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 4,
+                        "Cor Lapis": 20,
+                        "Prithiva Topaz Fragment": 6,
+                        "Slime Secretions": 12
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 44.55160140991211,
+                    "Base DEF": 130.89599609375,
+                    "Base HP": 2607.0302734375,
+                    "Geo DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 8,
+                        "Cor Lapis": 30,
+                        "Prithiva Topaz Chunk": 3,
+                        "Slime Secretions": 18
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 56.46139907836914,
+                    "Base DEF": 165.88800048828125,
+                    "Base HP": 3303.958984375,
+                    "Geo DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 12,
+                        "Cor Lapis": 45,
+                        "Prithiva Topaz Chunk": 6,
+                        "Slime Concentrate": 12
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 68.37129974365234,
+                    "Base DEF": 200.8800048828125,
+                    "Base HP": 4000.887939453125,
+                    "Geo DMG Bonus": 0.2160000056028366
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 20,
+                        "Cor Lapis": 60,
+                        "Prithiva Topaz Gemstone": 6,
+                        "Slime Concentrate": 24
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 80.28109741210938,
+                    "Base DEF": 235.8719940185547,
+                    "Base HP": 4697.81689453125,
+                    "Geo DMG Bonus": 0.2879999876022339
+                }
+            }
+        ],
         "description": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
         "element": "Geo",
         "name": "Zhongli",
@@ -126,6 +1952,108 @@
         "weapon": "Polearm"
     },
     "10000031": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Firm Arrowhead": 3,
+                        "Small Lamp Grass": 3,
+                        "Vajrada Amethyst Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 15.299369812011719,
+                    "Base DEF": 37.192501068115234,
+                    "Base HP": 575.5756225585938
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Firm Arrowhead": 15,
+                        "Lightning Prism": 2,
+                        "Small Lamp Grass": 10,
+                        "Vajrada Amethyst Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "ATK": 0.05999999865889549,
+                    "Base ATK": 26.16997528076172,
+                    "Base DEF": 63.618751525878906,
+                    "Base HP": 984.5372314453125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 4,
+                        "Sharp Arrowhead": 12,
+                        "Small Lamp Grass": 20,
+                        "Vajrada Amethyst Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 40.66411590576172,
+                    "Base DEF": 98.85375213623047,
+                    "Base HP": 1529.8193359375
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 8,
+                        "Sharp Arrowhead": 18,
+                        "Small Lamp Grass": 30,
+                        "Vajrada Amethyst Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 51.53472137451172,
+                    "Base DEF": 125.27999877929688,
+                    "Base HP": 1938.781005859375
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 12,
+                        "Small Lamp Grass": 45,
+                        "Vajrada Amethyst Chunk": 6,
+                        "Weathered Arrowhead": 12
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "ATK": 0.18000000715255737,
+                    "Base ATK": 62.40532684326172,
+                    "Base DEF": 151.7062530517578,
+                    "Base HP": 2347.74267578125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Lightning Prism": 20,
+                        "Small Lamp Grass": 60,
+                        "Vajrada Amethyst Gemstone": 6,
+                        "Weathered Arrowhead": 24
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "ATK": 0.23999999463558197,
+                    "Base ATK": 73.27593231201172,
+                    "Base DEF": 178.13250732421875,
+                    "Base HP": 2756.7041015625
+                }
+            }
+        ],
         "description": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
         "element": "Electro",
         "name": "Fischl",
@@ -133,6 +2061,108 @@
         "weapon": "Bow"
     },
     "10000032": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Sliver": 1,
+                        "Treasure Hoarder Insignia": 3,
+                        "Windwheel Aster": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 11.973420143127441,
+                    "Base DEF": 48.307498931884766,
+                    "Base HP": 776.5161743164062
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 3,
+                        "Everflame Seed": 2,
+                        "Treasure Hoarder Insignia": 15,
+                        "Windwheel Aster": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 20.480850219726562,
+                    "Base DEF": 82.6312484741211,
+                    "Base HP": 1328.2513427734375,
+                    "Energy Recharge": 0.06669999659061432
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 6,
+                        "Everflame Seed": 4,
+                        "Silver Raven Insignia": 12,
+                        "Windwheel Aster": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 31.82408905029297,
+                    "Base DEF": 128.39625549316406,
+                    "Base HP": 2063.8984375,
+                    "Energy Recharge": 0.13330000638961792
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 3,
+                        "Everflame Seed": 8,
+                        "Silver Raven Insignia": 18,
+                        "Windwheel Aster": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 40.331520080566406,
+                    "Base DEF": 162.72000122070312,
+                    "Base HP": 2615.633544921875,
+                    "Energy Recharge": 0.13330000638961792
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 6,
+                        "Everflame Seed": 12,
+                        "Golden Raven Insignia": 12,
+                        "Windwheel Aster": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 48.838951110839844,
+                    "Base DEF": 197.0437469482422,
+                    "Base HP": 3167.36865234375,
+                    "Energy Recharge": 0.20000000298023224
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Gemstone": 6,
+                        "Everflame Seed": 20,
+                        "Golden Raven Insignia": 24,
+                        "Windwheel Aster": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 57.346378326416016,
+                    "Base DEF": 231.36749267578125,
+                    "Base HP": 3719.10400390625,
+                    "Energy Recharge": 0.26669999957084656
+                }
+            }
+        ],
         "description": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
         "element": "Pyro",
         "name": "Bennett",
@@ -140,6 +2170,108 @@
         "weapon": "Sword"
     },
     "10000033": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Recruit's Insignia": 3,
+                        "Starconch": 3,
+                        "Varunada Lazurite Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 20.11438751220703,
+                    "Base DEF": 54.37799835205078,
+                    "Base HP": 874.6027221679688
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 2,
+                        "Recruit's Insignia": 15,
+                        "Starconch": 10,
+                        "Varunada Lazurite Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 34.40618896484375,
+                    "Base DEF": 93.01499938964844,
+                    "Base HP": 1496.0308837890625,
+                    "Hydro DMG Bonus": 0.07199999690055847
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 4,
+                        "Sergeant's Insignia": 12,
+                        "Starconch": 20,
+                        "Varunada Lazurite Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 53.4619255065918,
+                    "Base DEF": 144.531005859375,
+                    "Base HP": 2324.601806640625,
+                    "Hydro DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 8,
+                        "Sergeant's Insignia": 18,
+                        "Starconch": 30,
+                        "Varunada Lazurite Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 67.75373077392578,
+                    "Base DEF": 183.16799926757812,
+                    "Base HP": 2946.030029296875,
+                    "Hydro DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 12,
+                        "Lieutenant's Insignia": 12,
+                        "Starconch": 45,
+                        "Varunada Lazurite Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 82.0455322265625,
+                    "Base DEF": 221.80499267578125,
+                    "Base HP": 3567.45849609375,
+                    "Hydro DMG Bonus": 0.2160000056028366
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 20,
+                        "Lieutenant's Insignia": 24,
+                        "Starconch": 60,
+                        "Varunada Lazurite Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 96.33733367919922,
+                    "Base DEF": 260.4419860839844,
+                    "Base HP": 4188.88671875,
+                    "Hydro DMG Bonus": 0.2879999876022339
+                }
+            }
+        ],
         "description": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
         "element": "Hydro",
         "name": "Tartaglia",
@@ -147,6 +2279,108 @@
         "weapon": "Bow"
     },
     "10000034": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Damaged Mask": 3,
+                        "Prithiva Topaz Sliver": 1,
+                        "Valberry": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 11.973420143127441,
+                    "Base DEF": 50.01750183105469,
+                    "Base HP": 756.08154296875
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 2,
+                        "Damaged Mask": 15,
+                        "Prithiva Topaz Fragment": 3,
+                        "Valberry": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 20.480850219726562,
+                    "Base DEF": 85.5562515258789,
+                    "Base HP": 1293.29736328125,
+                    "DEF": 0.07500000298023224
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 4,
+                        "Prithiva Topaz Fragment": 6,
+                        "Stained Mask": 12,
+                        "Valberry": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 31.82408905029297,
+                    "Base DEF": 132.94125366210938,
+                    "Base HP": 2009.585205078125,
+                    "DEF": 0.15000000596046448
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 8,
+                        "Prithiva Topaz Chunk": 3,
+                        "Stained Mask": 18,
+                        "Valberry": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 40.331520080566406,
+                    "Base DEF": 168.47999572753906,
+                    "Base HP": 2546.801025390625,
+                    "DEF": 0.15000000596046448
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 12,
+                        "Ominous Mask": 12,
+                        "Prithiva Topaz Chunk": 6,
+                        "Valberry": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 48.838951110839844,
+                    "Base DEF": 204.0187530517578,
+                    "Base HP": 3084.016845703125,
+                    "DEF": 0.22499999403953552
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 20,
+                        "Ominous Mask": 24,
+                        "Prithiva Topaz Gemstone": 6,
+                        "Valberry": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 57.346378326416016,
+                    "Base DEF": 239.5574951171875,
+                    "Base HP": 3621.232666015625,
+                    "DEF": 0.30000001192092896
+                }
+            }
+        ],
         "description": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
         "element": "Geo",
         "name": "Noelle",
@@ -154,6 +2388,108 @@
         "weapon": "Claymore"
     },
     "10000035": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Divining Scroll": 3,
+                        "Shivada Jade Sliver": 1,
+                        "Violetgrass": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 19.15656089782715,
+                    "Base DEF": 61.560001373291016,
+                    "Base HP": 825.5595703125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Divining Scroll": 15,
+                        "Hoarfrost Core": 2,
+                        "Shivada Jade Fragment": 3,
+                        "Violetgrass": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 32.767799377441406,
+                    "Base DEF": 105.30000305175781,
+                    "Base HP": 1412.141357421875,
+                    "Healing Bonus": 0.055399999022483826
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hoarfrost Core": 4,
+                        "Sealed Scroll": 12,
+                        "Shivada Jade Fragment": 6,
+                        "Violetgrass": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 50.91611862182617,
+                    "Base DEF": 163.6199951171875,
+                    "Base HP": 2194.25048828125,
+                    "Healing Bonus": 0.11079999804496765
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hoarfrost Core": 8,
+                        "Sealed Scroll": 18,
+                        "Shivada Jade Chunk": 3,
+                        "Violetgrass": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 64.52735900878906,
+                    "Base DEF": 207.36000061035156,
+                    "Base HP": 2780.832275390625,
+                    "Healing Bonus": 0.11079999804496765
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Forbidden Curse Scroll": 12,
+                        "Hoarfrost Core": 12,
+                        "Shivada Jade Chunk": 6,
+                        "Violetgrass": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 78.13860321044922,
+                    "Base DEF": 251.10000610351562,
+                    "Base HP": 3367.4140625,
+                    "Healing Bonus": 0.16619999706745148
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Forbidden Curse Scroll": 24,
+                        "Hoarfrost Core": 20,
+                        "Shivada Jade Gemstone": 6,
+                        "Violetgrass": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 91.74983978271484,
+                    "Base DEF": 294.8399963378906,
+                    "Base HP": 3953.995849609375,
+                    "Healing Bonus": 0.2214999943971634
+                }
+            }
+        ],
         "description": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
         "element": "Cryo",
         "name": "Qiqi",
@@ -161,6 +2497,108 @@
         "weapon": "Sword"
     },
     "10000036": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 3,
+                        "Damaged Mask": 3,
+                        "Shivada Jade Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 13.968990325927734,
+                    "Base DEF": 40.61249923706055,
+                    "Base HP": 687.9661254882812
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 10,
+                        "Damaged Mask": 15,
+                        "Hoarfrost Core": 2,
+                        "Shivada Jade Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "ATK": 0.05999999865889549,
+                    "Base ATK": 23.894325256347656,
+                    "Base DEF": 69.46875,
+                    "Base HP": 1176.7841796875
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 20,
+                        "Hoarfrost Core": 4,
+                        "Shivada Jade Fragment": 6,
+                        "Stained Mask": 12
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 37.12810516357422,
+                    "Base DEF": 107.9437484741211,
+                    "Base HP": 1828.54150390625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 30,
+                        "Hoarfrost Core": 8,
+                        "Shivada Jade Chunk": 3,
+                        "Stained Mask": 18
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 47.05344009399414,
+                    "Base DEF": 136.8000030517578,
+                    "Base HP": 2317.359619140625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 45,
+                        "Hoarfrost Core": 12,
+                        "Ominous Mask": 12,
+                        "Shivada Jade Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "ATK": 0.18000000715255737,
+                    "Base ATK": 56.97877502441406,
+                    "Base DEF": 165.65625,
+                    "Base HP": 2806.177490234375
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 60,
+                        "Hoarfrost Core": 20,
+                        "Ominous Mask": 24,
+                        "Shivada Jade Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "ATK": 0.23999999463558197,
+                    "Base ATK": 66.90411376953125,
+                    "Base DEF": 194.5124969482422,
+                    "Base HP": 3294.99560546875
+                }
+            }
+        ],
         "description": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
         "element": "Cryo",
         "name": "Chongyun",
@@ -168,6 +2606,108 @@
         "weapon": "Claymore"
     },
     "10000037": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Qingxin": 3,
+                        "Shivada Jade Sliver": 1,
+                        "Whopperflower Nectar": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 22.349319458007812,
+                    "Base DEF": 42.066001892089844,
+                    "Base HP": 653.9085693359375
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hoarfrost Core": 2,
+                        "Qingxin": 10,
+                        "Shivada Jade Fragment": 3,
+                        "Whopperflower Nectar": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 38.22909927368164,
+                    "Base DEF": 71.95500183105469,
+                    "Base HP": 1118.52783203125,
+                    "CRIT DMG": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hoarfrost Core": 4,
+                        "Qingxin": 20,
+                        "Shimmering Nectar": 12,
+                        "Shivada Jade Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 59.40214157104492,
+                    "Base DEF": 111.80699920654297,
+                    "Base HP": 1738.0201416015625,
+                    "CRIT DMG": 0.19200000166893005
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hoarfrost Core": 8,
+                        "Qingxin": 30,
+                        "Shimmering Nectar": 18,
+                        "Shivada Jade Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 75.28192138671875,
+                    "Base DEF": 141.6959991455078,
+                    "Base HP": 2202.639404296875,
+                    "CRIT DMG": 0.19200000166893005
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Energy Nectar": 12,
+                        "Hoarfrost Core": 12,
+                        "Qingxin": 45,
+                        "Shivada Jade Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 91.16169738769531,
+                    "Base DEF": 171.5850067138672,
+                    "Base HP": 2667.258544921875,
+                    "CRIT DMG": 0.2879999876022339
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Energy Nectar": 24,
+                        "Hoarfrost Core": 20,
+                        "Qingxin": 60,
+                        "Shivada Jade Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 107.0414810180664,
+                    "Base DEF": 201.4739990234375,
+                    "Base HP": 3131.8779296875,
+                    "CRIT DMG": 0.3840000033378601
+                }
+            }
+        ],
         "description": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
         "element": "Cryo",
         "name": "Ganyu",
@@ -175,6 +2715,108 @@
         "weapon": "Bow"
     },
     "10000038": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Cecilia": 3,
+                        "Divining Scroll": 3,
+                        "Prithiva Topaz Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 16.76198959350586,
+                    "Base DEF": 58.481998443603516,
+                    "Base HP": 882.7765502929688
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 2,
+                        "Cecilia": 10,
+                        "Divining Scroll": 15,
+                        "Prithiva Topaz Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 28.671825408935547,
+                    "Base DEF": 100.03500366210938,
+                    "Base HP": 1510.0125732421875,
+                    "Geo DMG Bonus": 0.07199999690055847
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 4,
+                        "Cecilia": 20,
+                        "Prithiva Topaz Fragment": 6,
+                        "Sealed Scroll": 12
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 44.551605224609375,
+                    "Base DEF": 155.43899536132812,
+                    "Base HP": 2346.3271484375,
+                    "Geo DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 8,
+                        "Cecilia": 30,
+                        "Prithiva Topaz Chunk": 3,
+                        "Sealed Scroll": 18
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 56.46144104003906,
+                    "Base DEF": 196.99200439453125,
+                    "Base HP": 2973.563232421875,
+                    "Geo DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 12,
+                        "Cecilia": 45,
+                        "Forbidden Curse Scroll": 12,
+                        "Prithiva Topaz Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 68.37127685546875,
+                    "Base DEF": 238.5449981689453,
+                    "Base HP": 3600.799072265625,
+                    "Geo DMG Bonus": 0.2160000056028366
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Basalt Pillar": 20,
+                        "Cecilia": 60,
+                        "Forbidden Curse Scroll": 24,
+                        "Prithiva Topaz Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 80.28111267089844,
+                    "Base DEF": 280.0979919433594,
+                    "Base HP": 4228.03515625,
+                    "Geo DMG Bonus": 0.2879999876022339
+                }
+            }
+        ],
         "description": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
         "element": "Geo",
         "name": "Albedo",
@@ -182,6 +2824,108 @@
         "weapon": "Sword"
     },
     "10000039": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 3,
+                        "Firm Arrowhead": 3,
+                        "Shivada Jade Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 13.303799629211426,
+                    "Base DEF": 37.619998931884766,
+                    "Base HP": 599.416015625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 10,
+                        "Firm Arrowhead": 15,
+                        "Hoarfrost Core": 2,
+                        "Shivada Jade Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 22.756500244140625,
+                    "Base DEF": 64.3499984741211,
+                    "Base HP": 1025.31689453125,
+                    "Cryo DMG Bonus": 0.05999999865889549
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 20,
+                        "Hoarfrost Core": 4,
+                        "Sharp Arrowhead": 12,
+                        "Shivada Jade Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 35.36009979248047,
+                    "Base DEF": 99.98999786376953,
+                    "Base HP": 1593.1846923828125,
+                    "Cryo DMG Bonus": 0.11999999731779099
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 30,
+                        "Hoarfrost Core": 8,
+                        "Sharp Arrowhead": 18,
+                        "Shivada Jade Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 44.812801361083984,
+                    "Base DEF": 126.72000122070312,
+                    "Base HP": 2019.08544921875,
+                    "Cryo DMG Bonus": 0.11999999731779099
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 45,
+                        "Hoarfrost Core": 12,
+                        "Shivada Jade Chunk": 6,
+                        "Weathered Arrowhead": 12
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 54.265499114990234,
+                    "Base DEF": 153.4499969482422,
+                    "Base HP": 2444.986328125,
+                    "Cryo DMG Bonus": 0.18000000715255737
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Calla Lily": 60,
+                        "Hoarfrost Core": 20,
+                        "Shivada Jade Gemstone": 6,
+                        "Weathered Arrowhead": 24
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 63.71820068359375,
+                    "Base DEF": 180.17999267578125,
+                    "Base HP": 2870.88720703125,
+                    "Cryo DMG Bonus": 0.23999999463558197
+                }
+            }
+        ],
         "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
         "element": "Cryo",
         "name": "Diona",
@@ -189,6 +2933,108 @@
         "weapon": "Bow"
     },
     "10000041": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Philanemo Mushroom": 3,
+                        "Varunada Lazurite Sliver": 1,
+                        "Whopperflower Nectar": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 19.15656089782715,
+                    "Base DEF": 43.60499954223633,
+                    "Base HP": 694.77783203125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 2,
+                        "Philanemo Mushroom": 10,
+                        "Varunada Lazurite Fragment": 3,
+                        "Whopperflower Nectar": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 32.767799377441406,
+                    "Base DEF": 74.5875015258789,
+                    "Base HP": 1188.435791015625,
+                    "Energy Recharge": 0.07999999821186066
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 4,
+                        "Philanemo Mushroom": 20,
+                        "Shimmering Nectar": 12,
+                        "Varunada Lazurite Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 50.91611862182617,
+                    "Base DEF": 115.89749908447266,
+                    "Base HP": 1846.6463623046875,
+                    "Energy Recharge": 0.1599999964237213
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 8,
+                        "Philanemo Mushroom": 30,
+                        "Shimmering Nectar": 18,
+                        "Varunada Lazurite Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 64.52735900878906,
+                    "Base DEF": 146.8800048828125,
+                    "Base HP": 2340.30419921875,
+                    "Energy Recharge": 0.1599999964237213
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 12,
+                        "Energy Nectar": 12,
+                        "Philanemo Mushroom": 45,
+                        "Varunada Lazurite Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 78.13860321044922,
+                    "Base DEF": 177.8625030517578,
+                    "Base HP": 2833.962158203125,
+                    "Energy Recharge": 0.23999999463558197
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cleansing Heart": 20,
+                        "Energy Nectar": 24,
+                        "Philanemo Mushroom": 60,
+                        "Varunada Lazurite Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 91.74983978271484,
+                    "Base DEF": 208.84500122070312,
+                    "Base HP": 3327.6201171875,
+                    "Energy Recharge": 0.3199999928474426
+                }
+            }
+        ],
         "description": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
         "element": "Hydro",
         "name": "Mona",
@@ -196,6 +3042,108 @@
         "weapon": "Catalyst"
     },
     "10000042": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 3,
+                        "Vajrada Amethyst Sliver": 1,
+                        "Whopperflower Nectar": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 21.551130294799805,
+                    "Base DEF": 53.35200119018555,
+                    "Base HP": 874.6027221679688
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 10,
+                        "Lightning Prism": 2,
+                        "Vajrada Amethyst Fragment": 3,
+                        "Whopperflower Nectar": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 36.863773345947266,
+                    "Base DEF": 91.26000213623047,
+                    "Base HP": 1496.0308837890625,
+                    "CRIT DMG": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 20,
+                        "Lightning Prism": 4,
+                        "Shimmering Nectar": 12,
+                        "Vajrada Amethyst Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 57.280635833740234,
+                    "Base DEF": 141.8040008544922,
+                    "Base HP": 2324.601806640625,
+                    "CRIT DMG": 0.19200000166893005
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 30,
+                        "Lightning Prism": 8,
+                        "Shimmering Nectar": 18,
+                        "Vajrada Amethyst Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 72.59327697753906,
+                    "Base DEF": 179.71200561523438,
+                    "Base HP": 2946.030029296875,
+                    "CRIT DMG": 0.19200000166893005
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 45,
+                        "Energy Nectar": 12,
+                        "Lightning Prism": 12,
+                        "Vajrada Amethyst Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 87.90592193603516,
+                    "Base DEF": 217.6199951171875,
+                    "Base HP": 3567.45849609375,
+                    "CRIT DMG": 0.2879999876022339
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Cor Lapis": 60,
+                        "Energy Nectar": 24,
+                        "Lightning Prism": 20,
+                        "Vajrada Amethyst Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 103.21856689453125,
+                    "Base DEF": 255.5279998779297,
+                    "Base HP": 4188.88671875,
+                    "CRIT DMG": 0.3840000033378601
+                }
+            }
+        ],
         "description": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis's unilateral approach to policymaking in Liyue \u2014 but in truth, gods admire skeptics such as her quite a lot.",
         "element": "Electro",
         "name": "Keqing",
@@ -203,6 +3151,108 @@
         "weapon": "Sword"
     },
     "10000043": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Vayuda Turquoise Sliver": 1,
+                        "Whopperflower Nectar": 3,
+                        "Windwheel Aster": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 10.64303970336914,
+                    "Base DEF": 44.032501220703125,
+                    "Base HP": 578.9813842773438
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hurricane Seed": 2,
+                        "Vayuda Turquoise Fragment": 3,
+                        "Whopperflower Nectar": 15,
+                        "Windwheel Aster": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Anemo DMG Bonus": 0.05999999865889549,
+                    "Base ATK": 18.2052001953125,
+                    "Base DEF": 75.3187484741211,
+                    "Base HP": 990.3628540039062
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hurricane Seed": 4,
+                        "Shimmering Nectar": 12,
+                        "Vayuda Turquoise Fragment": 6,
+                        "Windwheel Aster": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Anemo DMG Bonus": 0.11999999731779099,
+                    "Base ATK": 28.2880802154541,
+                    "Base DEF": 117.03375244140625,
+                    "Base HP": 1538.87158203125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hurricane Seed": 8,
+                        "Shimmering Nectar": 18,
+                        "Vayuda Turquoise Chunk": 3,
+                        "Windwheel Aster": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Anemo DMG Bonus": 0.11999999731779099,
+                    "Base ATK": 35.85023880004883,
+                    "Base DEF": 148.32000732421875,
+                    "Base HP": 1950.2530517578125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Energy Nectar": 12,
+                        "Hurricane Seed": 12,
+                        "Vayuda Turquoise Chunk": 6,
+                        "Windwheel Aster": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Anemo DMG Bonus": 0.18000000715255737,
+                    "Base ATK": 43.41239929199219,
+                    "Base DEF": 179.6062469482422,
+                    "Base HP": 2361.634521484375
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Energy Nectar": 24,
+                        "Hurricane Seed": 20,
+                        "Vayuda Turquoise Gemstone": 6,
+                        "Windwheel Aster": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Anemo DMG Bonus": 0.23999999463558197,
+                    "Base ATK": 50.97455978393555,
+                    "Base DEF": 210.8925018310547,
+                    "Base HP": 2773.01611328125
+                }
+            }
+        ],
         "description": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
         "element": "Anemo",
         "name": "Sucrose",
@@ -210,6 +3260,108 @@
         "weapon": "Catalyst"
     },
     "10000044": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Sliver": 1,
+                        "Treasure Hoarder Insignia": 3,
+                        "Violetgrass": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 15.565445899963379,
+                    "Base DEF": 50.01750183105469,
+                    "Base HP": 701.5891723632812
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 3,
+                        "Everflame Seed": 2,
+                        "Treasure Hoarder Insignia": 15,
+                        "Violetgrass": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "ATK": 0.05999999865889549,
+                    "Base ATK": 26.625104904174805,
+                    "Base DEF": 85.5562515258789,
+                    "Base HP": 1200.0867919921875
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 6,
+                        "Everflame Seed": 4,
+                        "Silver Raven Insignia": 12,
+                        "Violetgrass": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 41.37131881713867,
+                    "Base DEF": 132.94125366210938,
+                    "Base HP": 1864.750244140625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 3,
+                        "Everflame Seed": 8,
+                        "Silver Raven Insignia": 18,
+                        "Violetgrass": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 52.43097686767578,
+                    "Base DEF": 168.47999572753906,
+                    "Base HP": 2363.247802734375
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 6,
+                        "Everflame Seed": 12,
+                        "Golden Raven Insignia": 12,
+                        "Violetgrass": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "ATK": 0.18000000715255737,
+                    "Base ATK": 63.49063491821289,
+                    "Base DEF": 204.0187530517578,
+                    "Base HP": 2861.745361328125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Gemstone": 6,
+                        "Everflame Seed": 20,
+                        "Golden Raven Insignia": 24,
+                        "Violetgrass": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "ATK": 0.23999999463558197,
+                    "Base ATK": 74.55029296875,
+                    "Base DEF": 239.5574951171875,
+                    "Base HP": 3360.242919921875
+                }
+            }
+        ],
         "description": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
         "element": "Pyro",
         "name": "Xinyan",
@@ -217,6 +3369,108 @@
         "weapon": "Claymore"
     },
     "10000045": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Recruit's Insignia": 3,
+                        "Shivada Jade Sliver": 1,
+                        "Valberry": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 15.033293724060059,
+                    "Base DEF": 44.459999084472656,
+                    "Base HP": 769.7046508789062
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hoarfrost Core": 2,
+                        "Recruit's Insignia": 15,
+                        "Shivada Jade Fragment": 3,
+                        "Valberry": 10
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "ATK": 0.05999999865889549,
+                    "Base ATK": 25.714845657348633,
+                    "Base DEF": 76.05000305175781,
+                    "Base HP": 1316.60009765625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hoarfrost Core": 4,
+                        "Sergeant's Insignia": 12,
+                        "Shivada Jade Fragment": 6,
+                        "Valberry": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 39.956912994384766,
+                    "Base DEF": 118.16999816894531,
+                    "Base HP": 2045.7939453125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hoarfrost Core": 8,
+                        "Sergeant's Insignia": 18,
+                        "Shivada Jade Chunk": 3,
+                        "Valberry": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 50.638465881347656,
+                    "Base DEF": 149.75999450683594,
+                    "Base HP": 2592.689453125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hoarfrost Core": 12,
+                        "Lieutenant's Insignia": 12,
+                        "Shivada Jade Chunk": 6,
+                        "Valberry": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "ATK": 0.18000000715255737,
+                    "Base ATK": 61.32001495361328,
+                    "Base DEF": 181.35000610351562,
+                    "Base HP": 3139.584716796875
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Hoarfrost Core": 20,
+                        "Lieutenant's Insignia": 24,
+                        "Shivada Jade Gemstone": 6,
+                        "Valberry": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "ATK": 0.23999999463558197,
+                    "Base ATK": 72.0015640258789,
+                    "Base DEF": 212.94000244140625,
+                    "Base HP": 3686.480224609375
+                }
+            }
+        ],
         "description": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
         "element": "Cryo",
         "name": "Rosaria",
@@ -224,6 +3478,108 @@
         "weapon": "Polearm"
     },
     "10000046": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Sliver": 1,
+                        "Silk Flower": 3,
+                        "Whopperflower Nectar": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 7.103890895843506,
+                    "Base DEF": 58.481998443603516,
+                    "Base HP": 1038.079833984375
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 3,
+                        "Juvenile Jade": 2,
+                        "Silk Flower": 10,
+                        "Whopperflower Nectar": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 12.151392936706543,
+                    "Base DEF": 100.03500366210938,
+                    "Base HP": 1775.662841796875,
+                    "CRIT DMG": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 6,
+                        "Juvenile Jade": 4,
+                        "Shimmering Nectar": 12,
+                        "Silk Flower": 20
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 18.881393432617188,
+                    "Base DEF": 155.43899536132812,
+                    "Base HP": 2759.10693359375,
+                    "CRIT DMG": 0.19200000166893005
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 3,
+                        "Juvenile Jade": 8,
+                        "Shimmering Nectar": 18,
+                        "Silk Flower": 30
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 23.928895950317383,
+                    "Base DEF": 196.99200439453125,
+                    "Base HP": 3496.68994140625,
+                    "CRIT DMG": 0.19200000166893005
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 6,
+                        "Energy Nectar": 12,
+                        "Juvenile Jade": 12,
+                        "Silk Flower": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 28.976398468017578,
+                    "Base DEF": 238.5449981689453,
+                    "Base HP": 4234.27294921875,
+                    "CRIT DMG": 0.2879999876022339
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Gemstone": 6,
+                        "Energy Nectar": 24,
+                        "Juvenile Jade": 20,
+                        "Silk Flower": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 34.02389907836914,
+                    "Base DEF": 280.0979919433594,
+                    "Base HP": 4971.85595703125,
+                    "CRIT DMG": 0.3840000033378601
+                }
+            }
+        ],
         "description": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
         "element": "Pyro",
         "name": "Hu Tao",
@@ -231,6 +3587,108 @@
         "weapon": "Polearm"
     },
     "10000047": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Sea Ganoderma": 3,
+                        "Treasure Hoarder Insignia": 3,
+                        "Vayuda Turquoise Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 19.79511260986328,
+                    "Base DEF": 53.8650016784668,
+                    "Base HP": 890.950439453125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Marionette Core": 2,
+                        "Sea Ganoderma": 10,
+                        "Treasure Hoarder Insignia": 15,
+                        "Vayuda Turquoise Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 33.86006164550781,
+                    "Base DEF": 92.13749694824219,
+                    "Base HP": 1523.994140625,
+                    "Elemental Mastery": 28.799999237060547
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Marionette Core": 4,
+                        "Sea Ganoderma": 20,
+                        "Silver Raven Insignia": 12,
+                        "Vayuda Turquoise Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 52.61332321166992,
+                    "Base DEF": 143.16749572753906,
+                    "Base HP": 2368.052490234375,
+                    "Elemental Mastery": 57.599998474121094
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Marionette Core": 8,
+                        "Sea Ganoderma": 30,
+                        "Silver Raven Insignia": 18,
+                        "Vayuda Turquoise Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 66.67826843261719,
+                    "Base DEF": 181.44000244140625,
+                    "Base HP": 3001.09619140625,
+                    "Elemental Mastery": 57.599998474121094
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Golden Raven Insignia": 12,
+                        "Marionette Core": 12,
+                        "Sea Ganoderma": 45,
+                        "Vayuda Turquoise Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 80.74321746826172,
+                    "Base DEF": 219.71249389648438,
+                    "Base HP": 3634.139892578125,
+                    "Elemental Mastery": 86.4000015258789
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Golden Raven Insignia": 24,
+                        "Marionette Core": 20,
+                        "Sea Ganoderma": 60,
+                        "Vayuda Turquoise Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 94.80816650390625,
+                    "Base DEF": 257.9849853515625,
+                    "Base HP": 4267.18359375,
+                    "Elemental Mastery": 115.19999694824219
+                }
+            }
+        ],
         "description": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
         "element": "Anemo",
         "name": "Kaedehara Kazuha",
@@ -238,6 +3696,108 @@
         "weapon": "Sword"
     },
     "10000048": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Sliver": 1,
+                        "Noctilucous Jade": 3,
+                        "Treasure Hoarder Insignia": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 15.033293724060059,
+                    "Base DEF": 36.76499938964844,
+                    "Base HP": 585.7929077148438
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 3,
+                        "Juvenile Jade": 2,
+                        "Noctilucous Jade": 10,
+                        "Treasure Hoarder Insignia": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 25.714845657348633,
+                    "Base DEF": 62.88750076293945,
+                    "Base HP": 1002.0142211914062,
+                    "Pyro DMG Bonus": 0.05999999865889549
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 6,
+                        "Juvenile Jade": 4,
+                        "Noctilucous Jade": 20,
+                        "Silver Raven Insignia": 12
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 39.956912994384766,
+                    "Base DEF": 97.71749877929688,
+                    "Base HP": 1556.9759521484375,
+                    "Pyro DMG Bonus": 0.11999999731779099
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 3,
+                        "Juvenile Jade": 8,
+                        "Noctilucous Jade": 30,
+                        "Silver Raven Insignia": 18
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 50.638465881347656,
+                    "Base DEF": 123.83999633789062,
+                    "Base HP": 1973.197265625,
+                    "Pyro DMG Bonus": 0.11999999731779099
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 6,
+                        "Golden Raven Insignia": 12,
+                        "Juvenile Jade": 12,
+                        "Noctilucous Jade": 45
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 61.32001495361328,
+                    "Base DEF": 149.96249389648438,
+                    "Base HP": 2389.41845703125,
+                    "Pyro DMG Bonus": 0.18000000715255737
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Gemstone": 6,
+                        "Golden Raven Insignia": 24,
+                        "Juvenile Jade": 20,
+                        "Noctilucous Jade": 60
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 72.0015640258789,
+                    "Base DEF": 176.0850067138672,
+                    "Base HP": 2805.639892578125,
+                    "Pyro DMG Bonus": 0.23999999463558197
+                }
+            }
+        ],
         "description": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
         "element": "Pyro",
         "name": "Yanfei",
@@ -245,6 +3805,108 @@
         "weapon": "Catalyst"
     },
     "10000049": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Sliver": 1,
+                        "Divining Scroll": 3,
+                        "Naku Weed": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 21.551130294799805,
+                    "Base DEF": 41.040000915527344,
+                    "Base HP": 678.4301147460938
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 3,
+                        "Divining Scroll": 15,
+                        "Naku Weed": 10,
+                        "Smoldering Pearl": 2
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 36.863773345947266,
+                    "Base DEF": 70.19999694824219,
+                    "Base HP": 1160.4725341796875,
+                    "CRIT Rate": 0.04800000041723251
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 6,
+                        "Naku Weed": 20,
+                        "Sealed Scroll": 12,
+                        "Smoldering Pearl": 4
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 57.280635833740234,
+                    "Base DEF": 109.08000183105469,
+                    "Base HP": 1803.1959228515625,
+                    "CRIT Rate": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 3,
+                        "Naku Weed": 30,
+                        "Sealed Scroll": 18,
+                        "Smoldering Pearl": 8
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 72.59327697753906,
+                    "Base DEF": 138.24000549316406,
+                    "Base HP": 2285.23828125,
+                    "CRIT Rate": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 6,
+                        "Forbidden Curse Scroll": 12,
+                        "Naku Weed": 45,
+                        "Smoldering Pearl": 12
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 87.90592193603516,
+                    "Base DEF": 167.39999389648438,
+                    "Base HP": 2767.28076171875,
+                    "CRIT Rate": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Gemstone": 6,
+                        "Forbidden Curse Scroll": 24,
+                        "Naku Weed": 60,
+                        "Smoldering Pearl": 20
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 103.21856689453125,
+                    "Base DEF": 196.55999755859375,
+                    "Base HP": 3249.3232421875,
+                    "CRIT Rate": 0.19200000166893005
+                }
+            }
+        ],
         "description": "Owner of Naganohara Fireworks. Known as \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
         "element": "Pyro",
         "name": "Yoimiya",
@@ -252,6 +3914,108 @@
         "weapon": "Bow"
     },
     "10000050": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Sliver": 1,
+                        "Fluorescent Fungus": 3,
+                        "Treasure Hoarder Insignia": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 12.638609886169434,
+                    "Base DEF": 47.025001525878906,
+                    "Base HP": 647.0968017578125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 3,
+                        "Fluorescent Fungus": 10,
+                        "Smoldering Pearl": 2,
+                        "Treasure Hoarder Insignia": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "ATK": 0.05999999865889549,
+                    "Base ATK": 21.618675231933594,
+                    "Base DEF": 80.4375,
+                    "Base HP": 1106.876220703125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Fragment": 6,
+                        "Fluorescent Fungus": 20,
+                        "Silver Raven Insignia": 12,
+                        "Smoldering Pearl": 4
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 33.59209442138672,
+                    "Base DEF": 124.98750305175781,
+                    "Base HP": 1719.915283203125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 3,
+                        "Fluorescent Fungus": 30,
+                        "Silver Raven Insignia": 18,
+                        "Smoldering Pearl": 8
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 42.57215881347656,
+                    "Base DEF": 158.39999389648438,
+                    "Base HP": 2179.694580078125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Chunk": 6,
+                        "Fluorescent Fungus": 45,
+                        "Golden Raven Insignia": 12,
+                        "Smoldering Pearl": 12
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "ATK": 0.18000000715255737,
+                    "Base ATK": 51.552223205566406,
+                    "Base DEF": 191.8125,
+                    "Base HP": 2639.473876953125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Agnidus Agate Gemstone": 6,
+                        "Fluorescent Fungus": 60,
+                        "Golden Raven Insignia": 24,
+                        "Smoldering Pearl": 20
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "ATK": 0.23999999463558197,
+                    "Base ATK": 60.532291412353516,
+                    "Base DEF": 225.22500610351562,
+                    "Base HP": 3099.253173828125
+                }
+            }
+        ],
         "description": "The Kamisato Clan's housekeeper. A well-known \"fixer\" in Inazuma.",
         "element": "Pyro",
         "name": "Thoma",
@@ -259,6 +4023,108 @@
         "weapon": "Polearm"
     },
     "10000051": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Damaged Mask": 3,
+                        "Dandelion Seed": 3,
+                        "Shivada Jade Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 22.82823371887207,
+                    "Base DEF": 50.12009811401367,
+                    "Base HP": 882.7765502929688
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystalline Bloom": 2,
+                        "Damaged Mask": 15,
+                        "Dandelion Seed": 10,
+                        "Shivada Jade Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 39.04829406738281,
+                    "Base DEF": 85.73175048828125,
+                    "Base HP": 1510.0125732421875,
+                    "CRIT DMG": 0.09600000083446503
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystalline Bloom": 4,
+                        "Dandelion Seed": 20,
+                        "Shivada Jade Fragment": 6,
+                        "Stained Mask": 12
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 60.67504119873047,
+                    "Base DEF": 133.2139434814453,
+                    "Base HP": 2346.3271484375,
+                    "CRIT DMG": 0.19200000166893005
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystalline Bloom": 8,
+                        "Dandelion Seed": 30,
+                        "Shivada Jade Chunk": 3,
+                        "Stained Mask": 18
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 76.89510345458984,
+                    "Base DEF": 168.8256072998047,
+                    "Base HP": 2973.563232421875,
+                    "CRIT DMG": 0.19200000166893005
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystalline Bloom": 12,
+                        "Dandelion Seed": 45,
+                        "Ominous Mask": 12,
+                        "Shivada Jade Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 93.11516571044922,
+                    "Base DEF": 204.437255859375,
+                    "Base HP": 3600.799072265625,
+                    "CRIT DMG": 0.2879999876022339
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystalline Bloom": 20,
+                        "Dandelion Seed": 60,
+                        "Ominous Mask": 24,
+                        "Shivada Jade Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 109.3352279663086,
+                    "Base DEF": 240.0489044189453,
+                    "Base HP": 4228.03515625,
+                    "CRIT DMG": 0.3840000033378601
+                }
+            }
+        ],
         "description": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
         "element": "Cryo",
         "name": "Eula",
@@ -266,6 +4132,108 @@
         "weapon": "Claymore"
     },
     "10000052": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Amakumo Fruit": 3,
+                        "Old Handguard": 3,
+                        "Vajrada Amethyst Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 22.50895881652832,
+                    "Base DEF": 52.68510055541992,
+                    "Base HP": 861.5245361328125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Amakumo Fruit": 10,
+                        "Old Handguard": 15,
+                        "Storm Beads": 2,
+                        "Vajrada Amethyst Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 38.502166748046875,
+                    "Base DEF": 90.11924743652344,
+                    "Base HP": 1473.660400390625,
+                    "Energy Recharge": 0.07999999821186066
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Amakumo Fruit": 20,
+                        "Kageuchi Handguard": 12,
+                        "Storm Beads": 4,
+                        "Vajrada Amethyst Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 59.82644271850586,
+                    "Base DEF": 140.0314483642578,
+                    "Base HP": 2289.841552734375,
+                    "Energy Recharge": 0.1599999964237213
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Amakumo Fruit": 30,
+                        "Kageuchi Handguard": 18,
+                        "Storm Beads": 8,
+                        "Vajrada Amethyst Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 75.81964874267578,
+                    "Base DEF": 177.46560668945312,
+                    "Base HP": 2901.977294921875,
+                    "Energy Recharge": 0.1599999964237213
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Amakumo Fruit": 45,
+                        "Famed Handguard": 12,
+                        "Storm Beads": 12,
+                        "Vajrada Amethyst Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 91.81285858154297,
+                    "Base DEF": 214.89974975585938,
+                    "Base HP": 3514.11328125,
+                    "Energy Recharge": 0.23999999463558197
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Amakumo Fruit": 60,
+                        "Famed Handguard": 24,
+                        "Storm Beads": 20,
+                        "Vajrada Amethyst Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 107.80606079101562,
+                    "Base DEF": 252.33389282226562,
+                    "Base HP": 4126.2490234375,
+                    "Energy Recharge": 0.3199999928474426
+                }
+            }
+        ],
         "description": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
         "element": "Electro",
         "name": "Raiden Shogun",
@@ -273,6 +4241,108 @@
         "weapon": "Polearm"
     },
     "10000053": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 3,
+                        "Vayuda Turquoise Sliver": 1,
+                        "Whopperflower Nectar": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 15.299369812011719,
+                    "Base DEF": 46.64025115966797,
+                    "Base HP": 742.45849609375
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 10,
+                        "Marionette Core": 2,
+                        "Vayuda Turquoise Fragment": 3,
+                        "Whopperflower Nectar": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 26.16997528076172,
+                    "Base DEF": 79.77937316894531,
+                    "Base HP": 1269.9947509765625,
+                    "Elemental Mastery": 24.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 20,
+                        "Marionette Core": 4,
+                        "Shimmering Nectar": 12,
+                        "Vayuda Turquoise Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 40.66411590576172,
+                    "Base DEF": 123.96487426757812,
+                    "Base HP": 1973.37646484375,
+                    "Elemental Mastery": 48.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 30,
+                        "Marionette Core": 8,
+                        "Shimmering Nectar": 18,
+                        "Vayuda Turquoise Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 51.53472137451172,
+                    "Base DEF": 157.10400390625,
+                    "Base HP": 2500.912841796875,
+                    "Elemental Mastery": 48.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 45,
+                        "Energy Nectar": 12,
+                        "Marionette Core": 12,
+                        "Vayuda Turquoise Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 62.40532684326172,
+                    "Base DEF": 190.2431182861328,
+                    "Base HP": 3028.448974609375,
+                    "Elemental Mastery": 72.0
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 60,
+                        "Energy Nectar": 24,
+                        "Marionette Core": 20,
+                        "Vayuda Turquoise Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 73.27593231201172,
+                    "Base DEF": 223.3822479248047,
+                    "Base HP": 3555.9853515625,
+                    "Elemental Mastery": 96.0
+                }
+            }
+        ],
         "description": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
         "element": "Anemo",
         "name": "Sayu",
@@ -280,6 +4350,108 @@
         "weapon": "Claymore"
     },
     "10000054": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Sango Pearl": 3,
+                        "Spectral Husk": 3,
+                        "Varunada Lazurite Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 15.644523620605469,
+                    "Base DEF": 43.86149978637695,
+                    "Base HP": 899.124267578125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dew of Repudiation": 2,
+                        "Sango Pearl": 10,
+                        "Spectral Husk": 15,
+                        "Varunada Lazurite Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 26.7603702545166,
+                    "Base DEF": 75.02625274658203,
+                    "Base HP": 1537.9757080078125,
+                    "Hydro DMG Bonus": 0.07199999690055847
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dew of Repudiation": 4,
+                        "Sango Pearl": 20,
+                        "Spectral Heart": 12,
+                        "Varunada Lazurite Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 41.58149719238281,
+                    "Base DEF": 116.5792465209961,
+                    "Base HP": 2389.777587890625,
+                    "Hydro DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dew of Repudiation": 8,
+                        "Sango Pearl": 30,
+                        "Spectral Heart": 18,
+                        "Varunada Lazurite Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 52.69734573364258,
+                    "Base DEF": 147.74400329589844,
+                    "Base HP": 3028.629150390625,
+                    "Hydro DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dew of Repudiation": 12,
+                        "Sango Pearl": 45,
+                        "Spectral Nucleus": 12,
+                        "Varunada Lazurite Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 63.81319046020508,
+                    "Base DEF": 178.90875244140625,
+                    "Base HP": 3667.48046875,
+                    "Hydro DMG Bonus": 0.2160000056028366
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dew of Repudiation": 20,
+                        "Sango Pearl": 60,
+                        "Spectral Nucleus": 24,
+                        "Varunada Lazurite Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 74.92903900146484,
+                    "Base DEF": 210.07350158691406,
+                    "Base HP": 4306.33203125,
+                    "Hydro DMG Bonus": 0.2879999876022339
+                }
+            }
+        ],
         "description": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
         "element": "Hydro",
         "name": "Sangonomiya Kokomi",
@@ -287,6 +4459,108 @@
         "weapon": "Catalyst"
     },
     "10000056": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Damaged Mask": 3,
+                        "Dendrobium": 3,
+                        "Vajrada Amethyst Sliver": 1
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 12.239496231079102,
+                    "Base DEF": 39.33000183105469,
+                    "Base HP": 599.416015625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Damaged Mask": 15,
+                        "Dendrobium": 10,
+                        "Storm Beads": 2,
+                        "Vajrada Amethyst Fragment": 3
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "ATK": 0.05999999865889549,
+                    "Base ATK": 20.93597984313965,
+                    "Base DEF": 67.2750015258789,
+                    "Base HP": 1025.31689453125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dendrobium": 20,
+                        "Stained Mask": 12,
+                        "Storm Beads": 4,
+                        "Vajrada Amethyst Fragment": 6
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 32.53129196166992,
+                    "Base DEF": 104.53500366210938,
+                    "Base HP": 1593.1846923828125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dendrobium": 30,
+                        "Stained Mask": 18,
+                        "Storm Beads": 8,
+                        "Vajrada Amethyst Chunk": 3
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "ATK": 0.11999999731779099,
+                    "Base ATK": 41.22777557373047,
+                    "Base DEF": 132.47999572753906,
+                    "Base HP": 2019.0855712890625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dendrobium": 45,
+                        "Ominous Mask": 12,
+                        "Storm Beads": 12,
+                        "Vajrada Amethyst Chunk": 6
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "ATK": 0.18000000715255737,
+                    "Base ATK": 49.924259185791016,
+                    "Base DEF": 160.4250030517578,
+                    "Base HP": 2444.986328125
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Dendrobium": 60,
+                        "Ominous Mask": 24,
+                        "Storm Beads": 20,
+                        "Vajrada Amethyst Gemstone": 6
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "ATK": 0.23999999463558197,
+                    "Base ATK": 58.62074279785156,
+                    "Base DEF": 188.3699951171875,
+                    "Base HP": 2870.88720703125
+                }
+            }
+        ],
         "description": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
         "element": "Electro",
         "name": "Kujou Sara",
@@ -294,6 +4568,108 @@
         "weapon": "Bow"
     },
     "10000062": {
+        "ascension": [
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 3,
+                        "Shivada Jade Sliver": 1,
+                        "Spectral Husk": 3
+                    },
+                    "mora": 20000
+                },
+                "stat": {
+                    "Base ATK": 15.612595558166504,
+                    "Base DEF": 45.14400100708008,
+                    "Base HP": 727.4732666015625
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 10,
+                        "Crystalline Bloom": 2,
+                        "Shivada Jade Fragment": 3,
+                        "Spectral Husk": 15
+                    },
+                    "mora": 40000
+                },
+                "stat": {
+                    "Base ATK": 26.70575714111328,
+                    "Base DEF": 77.22000122070312,
+                    "Base HP": 1244.3621826171875,
+                    "Cryo DMG Bonus": 0.07199999690055847
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 20,
+                        "Crystalline Bloom": 4,
+                        "Shivada Jade Fragment": 6,
+                        "Spectral Heart": 12
+                    },
+                    "mora": 60000
+                },
+                "stat": {
+                    "Base ATK": 41.496639251708984,
+                    "Base DEF": 119.98799896240234,
+                    "Base HP": 1933.54736328125,
+                    "Cryo DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 30,
+                        "Crystalline Bloom": 8,
+                        "Shivada Jade Chunk": 3,
+                        "Spectral Heart": 18
+                    },
+                    "mora": 80000
+                },
+                "stat": {
+                    "Base ATK": 52.58979797363281,
+                    "Base DEF": 152.06399536132812,
+                    "Base HP": 2450.436279296875,
+                    "Cryo DMG Bonus": 0.14399999380111694
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 45,
+                        "Crystalline Bloom": 12,
+                        "Shivada Jade Chunk": 6,
+                        "Spectral Nucleus": 12
+                    },
+                    "mora": 100000
+                },
+                "stat": {
+                    "Base ATK": 63.682960510253906,
+                    "Base DEF": 184.13999938964844,
+                    "Base HP": 2967.3251953125,
+                    "Cryo DMG Bonus": 0.2160000056028366
+                }
+            },
+            {
+                "cost": {
+                    "item": {
+                        "Crystal Marrow": 60,
+                        "Crystalline Bloom": 20,
+                        "Shivada Jade Gemstone": 6,
+                        "Spectral Nucleus": 24
+                    },
+                    "mora": 120000
+                },
+                "stat": {
+                    "Base ATK": 74.776123046875,
+                    "Base DEF": 216.21600341796875,
+                    "Base HP": 3484.214111328125,
+                    "Cryo DMG Bonus": 0.2879999876022339
+                }
+            }
+        ],
         "description": "Formerly an outcast, now a hunter of unparalleled skill. Ready to do the right thing at any time.",
         "element": "Cryo",
         "name": "Aloy",
